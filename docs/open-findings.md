@@ -8,6 +8,30 @@ finding. Review-round findings are referenced as `r<N>/R<N>-<n>`.
 
 ## Open
 
+### Review round 1: R1-1 … R1-17, all open
+
+**Location:** [`reviews/review-r1.md`](../reviews/review-r1.md), against
+`7292a2b`
+
+17 findings: 4 high, 8 medium, 5 low. Each has its correction and validation
+in the review, which is not repeated here. These block reuse of the short
+answers:
+
+- **r1/R1-1:** the "pre-1939" bound. The earliest dated Thai record actually
+  cited is 1989.
+- **r1/R1-2:** the Hat Yai chant วัน ทู ส้ม rests on one 2008 comment that
+  could not be re-located.
+- **r1/R1-3:** the 1804–1843 estimate is Kako Satoshi (2008), relayed by
+  Yokohama Central Library in the NDL database. It is not an NDL guide, and
+  it does not make the game "securely identifiable".
+- **r1/R1-4:** the Singapore bird–water–stone record has no source.
+- **r1/R1-12:** none of the three Thai documentary anchors could be located as
+  cited.
+
+The review also located sources that close parts of OF-1 and OF-3 (Culin pp.
+44–45, verified independently on 2026-11-06). Its "Source locators found"
+table is the input for filling `evidence/sources.yml`.
+
 ### OF-1: sources cannot be re-found
 
 **Severity:** medium · **Location:** `evidence/sources.yml`
