@@ -1,0 +1,453 @@
+# Sources behind the notes.
+#
+# access: the deepest level anyone has reached for this source, ordered:
+#   primary_inspected  the passage itself was read
+#   indexed_text       a search-engine or database text of it was read, not the original
+#   catalogue_record   only a library / publisher record (establishes existence, date, author)
+#   secondary_report   only someone else's description of it
+#   user_screenshot    a private screenshot the owner holds; not in this repository
+#   not_located        cited by description only; nobody has identified the exact item
+#
+# by / when: who reached that level, and when. "ai_assisted_search, before
+# 2026-11-06" means the single compilation pass, not an independent re-check
+# (OF-2).
+#
+# url, archived, accessed, locator: what someone else needs to re-find the
+# passage. null means not recorded (OF-1), never "not applicable".
+
+version: 0.1
+
+sources:
+  - key: xie_wuzazu
+    title: 五雜組 (Wuzazu)
+    author: 謝肇淛 (Xie Zhaozhe)
+    date: Ming dynasty
+    language: zh
+    access: primary_inspected
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Passage on 手勢令. Edition and juan not recorded.
+
+  - key: ndl_crd_janken
+    title: Collaborative reference database entry on the origin of janken
+    author: National Diet Library (Japan), collaborative reference database
+    date: null
+    language: ja
+    access: secondary_report
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Source of the 1804–1843 estimate.
+
+  - key: japanese_ken_references
+    title: Japanese historical references on ken games (mushi-ken etc.)
+    author: null
+    date: null
+    language: ja
+    access: not_located
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Described collectively in the notes; no specific item named.
+
+  - key: culin1895
+    title: Korean Games, with Notes on the Corresponding Games of China and Japan
+    author: Stewart Culin
+    date: 1895
+    language: en
+    access: secondary_report
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Read via its reproduction in Japanese scholarship, not the 1895 book itself.
+
+  - key: buescher_rochambeau
+    title: Investigation of "Rochambeau" in American recreation literature
+    author: John B. Buescher
+    date: null
+    language: en
+    access: secondary_report
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: The 1935 recreation handbook itself was not seen.
+
+  - key: thai_junior_encyclopedia_v13
+    title: สารานุกรมไทยสำหรับเยาวชน เล่ม 13, การละเล่นของเด็ก
+    author: โครงการสารานุกรมไทยสำหรับเยาวชน
+    date: 2532 BE / 1989 (catalogue)
+    language: th
+    access: indexed_text
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Online transcription read; 1989 date from a university library catalogue. Printed pages not inspected.
+
+  - key: tce_central_games
+    title: สารานุกรมวัฒนธรรมไทย, การเล่นพื้นบ้านในภาคกลาง
+    author: Thailand Cultural Encyclopedia
+    date: null
+    language: th
+    access: indexed_text
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: null
+
+  - key: dekd_2008
+    title: Dek-D article on the origin of เป่ายิ้งฉุบ, with reader comments
+    author: Dek-D
+    date: 2008-06-26 (article); comments 2008-06-26 to 2008-06-29
+    language: th
+    access: primary_inspected
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Commenters are not named in this repository.
+
+  - key: thai_etymology_article
+    title: Recent article deriving เป่ายิ้งฉุบ from Chinese words
+    author: null
+    date: null
+    language: th
+    access: not_located
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Read during the search but not identified in the notes.
+
+  - key: dbp_2018_osom
+    title: Khidmat nasihat enquiry on the spelling of ohsom / osom / wan tu som
+    author: Dewan Bahasa dan Pustaka
+    date: 2018-09-07
+    language: ms
+    access: primary_inspected
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: null
+
+  - key: malaysian_artist_osom
+    title: Malaysian artist's statement recalling OSOM with burung, batu, air
+    author: null
+    date: null
+    language: en
+    access: not_located
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Not identified in the notes.
+
+  - key: malaysian_reporting_osom
+    title: Malaysian news reporting on local osom versions
+    author: null
+    date: null
+    language: en
+    access: not_located
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Not identified in the notes.
+
+  - key: singapore_schoolyard_folklore
+    title: Singaporean schoolyard folklore record of bird–water–stone
+    author: null
+    date: null
+    language: en
+    access: not_located
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Not identified in the notes.
+
+  - key: thungsong_chuchi
+    title: Account of Thai children's games describing ฉู่ฉี้
+    author: hosted by Thung Song (ทุ่งสง)
+    date: null
+    language: th
+    access: indexed_text
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: null
+
+  - key: thesis_chuchi
+    title: University thesis repeating the ฉู่ฉี้ description
+    author: null
+    date: null
+    language: th
+    access: not_located
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: May share a source with thungsong_chuchi.
+
+  - key: book_108_songkhamtham
+    title: 108 ซองคำถาม
+    author: null
+    date: null
+    language: th
+    access: secondary_report
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Known only through a Thai account attributing a five-choice Malaysian version to it.
+
+  - key: facebook_wantusom_post
+    title: Facebook post on วันตูโส้ม, with comments
+    author: not recorded (private individual)
+    date: null
+    language: th
+    access: user_screenshot
+    by: repository owner
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Screenshots held by the owner, deliberately not published. Commenters are not named.
+
+  - key: phuket_dictionary
+    title: พจนานุกรมภาษาถิ่นภูเก็ต พุทธศักราช 2560
+    author: อนันต์ อารีย์พงศ์ (ed.); โรงเรียนสตรีภูเก็ต
+    date: catalogued 2559 BE / 2016
+    language: th
+    access: catalogue_record
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: NDL (Japan) catalogue and a Silpakorn University bibliography. The วันตูโส้ม entry not seen.
+
+  - key: tce_phuket_hokkien
+    title: สารานุกรมวัฒนธรรมไทย, entry on Phuket Hokkien vocabulary
+    author: Thailand Cultural Encyclopedia
+    date: null
+    language: th
+    access: indexed_text
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: null
+
+  - key: hervey1903
+    title: Malay Games
+    author: D. F. A. Hervey
+    date: 1903
+    language: en
+    access: catalogue_record
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: Journal of the Anthropological Institute of Great Britain and Ireland 33, 284–304
+    notes: Wellcome Collection record. Full text not read.
+
+  - key: wilkinson1925
+    title: "Life and Customs: Malay Amusements (Papers on Malay Subjects, part III)"
+    author: R. J. Wilkinson
+    date: 1925
+    language: en
+    access: catalogue_record
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: eHRAF World Cultures description. Full text not read.
+
+  - key: asean2009_compilation
+    title: Compilation of Traditional ASEAN Children's Songs, Dances, Games and Story-Telling
+    author: ASEAN Committee on Culture and Information
+    date: 2009
+    language: en
+    access: indexed_text
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Hosted PDF returned an error; indexed text and ASEAN Secretariat catalogue record only.
+
+  - key: kamaruddin2013
+    title: The Games We Played
+    author: Kamaruddin Abdullah
+    date: 2013-05-20
+    language: en
+    access: primary_inspected
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Retrospective account of 1954–1961.
+
+  - key: nor_afidah2014
+    title: Kampong Living A–Z
+    author: Nor Afidah Abd Rahman
+    date: 2014
+    language: en
+    access: primary_inspected
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: BiblioAsia 9(4), January–March 2014, National Library Board Singapore
+    notes: null
+
+  - key: tgr_suit
+    title: Traditional Games Returns, entry on suit / suten
+    author: Traditional Games Returns
+    date: null
+    language: id
+    access: primary_inspected
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: null
+
+  - key: oktaviani_kinasih_suten
+    title: "Suten Games: Exploration of Empirical and Theoretical Probability for Junior High School Mathematics Learning"
+    author: Dewi Oktaviani; Dewi Kinasih
+    date: null
+    language: en
+    access: primary_inspected
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: https://doi.org/10.21831/ej.v4i1.59575
+    archived: null
+    accessed: null
+    locator: Ethnomathematics Journal 4(1)
+    notes: DOI not yet re-resolved by a second person.
+
+  - key: ogawa1982
+    title: "Jan Ken Po: The World of Hawaii's Japanese Americans"
+    author: Dennis M. Ogawa
+    date: 1982 (paperback, as listed)
+    language: en
+    access: catalogue_record
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: University of Hawaiʻi Press listing.
+
+  - key: nz_moe_takaro
+    title: Ministry of Education (NZ) material on tākaro ā-ringa
+    author: Ministry of Education, New Zealand
+    date: null
+    language: en
+    access: primary_inspected
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: null
+
+  - key: best1925
+    title: Games and Pastimes of the Maori
+    author: Elsdon Best
+    date: 1925
+    language: en
+    access: catalogue_record
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: National Library of New Zealand record and indexed contents ("The game of ti ringa"). Chapter not read.
+
+  - key: saaboothree_descriptions
+    title: General and Tamil descriptions of saa boo three
+    author: null
+    date: null
+    language: en
+    access: not_located
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: Wikipedia article and contemporary Tamil game documentation; not individually identified.
+
+  - key: toi2015_saaboothree
+    title: Saa Boo Three, for the child in you
+    author: The Times of India
+    date: 2015
+    language: en
+    access: primary_inspected
+    by: ai_assisted_search
+    when: before 2026-11-06
+    url: null
+    archived: null
+    accessed: null
+    locator: null
+    notes: About a television game show; cited by Wikipedia for the traditional game.

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# screenshots and other private evidence never enter the repository (AGENTS.md)
+*.png
+*.jpg
+*.jpeg
+*.heic

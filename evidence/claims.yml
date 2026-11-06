@@ -1,0 +1,426 @@
+# Load-bearing claims in the notes.
+#
+# Rules and vocabulary: CONTRIBUTING.md. Checked by evidence/check_evidence.py.
+#
+#   id          stable, never reused or renumbered
+#   statement   the claim, as narrowly as it can be stated
+#   layer       documented | recollection | testimony | interpretation
+#               | hypothesis | absence
+#   status      supported | partly_supported | unverified | unsupported | open
+#   sources     keys in sources.yml
+#   searched    absence claims only: what was searched
+#   pages       where the claim is stated, each with an anchor phrase that
+#               must appear on that page (whitespace and case ignored)
+#   notes       scope, caveats, what IS established when the claim is not
+
+version: 0.1
+
+claims:
+  # --- global chronology -------------------------------------------------
+  - id: claim.china.wuzazu_not_rps
+    statement: >
+      The 手勢令 passage in Xie Zhaozhe's Wuzazu names hand and finger
+      representations, says its method of play was unknown to the author, and
+      does not describe rock–paper–scissors.
+    layer: documented
+    status: supported
+    sources: [xie_wuzazu]
+    pages:
+      - path: 01-global-chronology.md
+        anchor: It does not describe modern rock–paper–scissors.
+
+  - id: claim.china.han_origin
+    statement: >
+      Rock–paper–scissors was played in Han China (206 BCE–220 CE).
+    layer: hypothesis
+    status: unsupported
+    sources: [xie_wuzazu]
+    pages:
+      - path: 01-global-chronology.md
+        anchor: should not be repeated as a demonstrated fact
+    notes: The passage usually cited for it does not support it.
+
+  - id: claim.japan.ken_symbols_varied
+    statement: >
+      Earlier Japanese cyclic ken games used other symbols, e.g. mushi-ken's
+      frog, slug and snake.
+    layer: documented
+    status: unverified
+    sources: [japanese_ken_references]
+    pages:
+      - path: 01-global-chronology.md
+        anchor: used frog, slug and snake
+
+  - id: claim.japan.emergence_1804_1843
+    statement: >
+      A Japanese library research guide estimates that rock–paper–scissors
+      emerged in Japan during 1804–1843.
+    layer: documented
+    status: partly_supported
+    sources: [ndl_crd_janken]
+    pages:
+      - path: 01-global-chronology.md
+        anchor: estimates emergence during 1804–1843
+    notes: The estimate is the guide's own, with acknowledged uncertainty.
+
+  - id: claim.japan.culin_1895
+    statement: >
+      Culin (1895) describes Japanese ishi-ken / janken played with stone,
+      paper and scissors.
+    layer: documented
+    status: partly_supported
+    sources: [culin1895]
+    pages:
+      - path: 01-global-chronology.md
+        anchor: A firm documentary anchor.
+    notes: >
+      The prose calls this firm, but the book itself has not been read: only
+      its reproduction in Japanese scholarship (OF-3).
+
+  - id: claim.us.rochambeau_1935
+    statement: >
+      A 1935 United States recreation handbook describes the game as
+      "Rochambeau".
+    layer: documented
+    status: partly_supported
+    sources: [buescher_rochambeau]
+    pages:
+      - path: 01-global-chronology.md
+        anchor: describes it as "Rochambeau"
+
+  # --- Thailand ----------------------------------------------------------
+  - id: claim.thai.first_record_not_found
+    statement: >
+      No first occurrence, first introduction, or securely dated pre-1939
+      Siamese record of the game was found.
+    layer: absence
+    status: open
+    sources: [thai_junior_encyclopedia_v13, tce_central_games, dekd_2008]
+    searched: >
+      One AI-assisted search pass in Thai, English, Japanese, Chinese and
+      Malay web material. Exact queries and collections were not recorded.
+      Prewar newspapers, school manuals, children's magazines and historical
+      dictionaries were not searched (see 06-open-questions.md).
+    pages:
+      - path: 02-thailand.md
+        anchor: No first occurrence, first introduction or securely dated pre-1939
+      - path: README.md
+        anchor: No securely dated pre-1939 Siamese record was found.
+
+  - id: claim.thai.junior_encyclopedia_1989
+    statement: >
+      The Thai Junior Encyclopedia vol. 13 (catalogued 2532 BE / 1989)
+      describes เป้ายิงฉุบ with hammer, scissors and paper.
+    layer: documented
+    status: supported
+    sources: [thai_junior_encyclopedia_v13]
+    pages:
+      - path: 02-thailand.md
+        anchor: catalogued as 2532 BE / 1989
+    notes: Supported for the online text; linking it to the printed 1989 pages is still to do.
+
+  - id: claim.thai.central_chant
+    statement: >
+      The Thailand Cultural Encyclopedia records ยันยีหรือเป่ายิงฉุบ and the
+      chant "ยันยีเยา ปักเป้ายิ้งฉุบ" among central Thai games.
+    layer: documented
+    status: supported
+    sources: [tce_central_games]
+    pages:
+      - path: 02-thailand.md
+        anchor: ยันยีเยา ปักเป้ายิ้งฉุบ
+
+  - id: claim.thai.wwii_hypothesis_circulating_2008
+    statement: >
+      The hypothesis that Thailand got the game from Japan during World War II
+      was in circulation by 26 June 2008.
+    layer: documented
+    status: supported
+    sources: [dekd_2008]
+    pages:
+      - path: 02-thailand.md
+        anchor: A Japanese/WWII introduction hypothesis was circulating by then
+
+  - id: claim.thai.wwii_introduction
+    statement: >
+      Thailand first received the game from Japanese people during World
+      War II.
+    layer: hypothesis
+    status: unsupported
+    sources: [dekd_2008]
+    pages:
+      - path: 02-thailand.md
+        anchor: Treat it as an origin hypothesis, not a historical finding.
+      - path: README.md
+        anchor: is an unsourced hypothesis
+    notes: The 2008 article offers no diary, newspaper, school record or eyewitness.
+
+  - id: claim.thai.chinese_etymology
+    statement: >
+      เป่ายิ้งฉุบ derives from Chinese words for paper/wrapping, scissors and
+      hammer.
+    layer: hypothesis
+    status: unverified
+    sources: [thai_etymology_article]
+    pages:
+      - path: 02-thailand.md
+        anchor: not an established etymology
+
+  # --- southern Thailand -------------------------------------------------
+  - id: claim.south.dekd_2008_variants
+    statement: >
+      In June 2008, commenters named Songkhla and Hat Yai for bird–stone–water,
+      Trang and Mueang Nakhon Si Thammarat for bird–gun–water, and Mueang
+      Surat Thani for scissors–hammer–paper.
+    layer: testimony
+    status: supported
+    sources: [dekd_2008]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: recognised by 2008
+    notes: Informal comments, not a survey. Supports "reported", not "the practice of the province".
+
+  - id: claim.malaysia.osom_bird_stone_water
+    statement: >
+      A 2018 enquiry to Dewan Bahasa dan Pustaka describes ohsom / osom /
+      wan tu som as a hand game using stone, water and bird.
+    layer: documented
+    status: supported
+    sources: [dbp_2018_osom]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: This establishes contemporary usage, not etymology.
+
+  - id: claim.malaysia.osom_recollection_artist
+    statement: >
+      A Malaysian artist recalls childhood OSOM with burung, batu, air.
+    layer: recollection
+    status: unverified
+    sources: [malaysian_artist_osom, malaysian_reporting_osom]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: burung, batu,
+
+  - id: claim.singapore.folklore_cycle
+    statement: >
+      The bird–water–stone cycle is recorded in Singaporean schoolyard
+      folklore.
+    layer: documented
+    status: unverified
+    sources: [singapore_schoolyard_folklore]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: recorded in Singaporean schoolyard folklore
+
+  - id: claim.south.peninsular_connection
+    statement: >
+      The match in both chant (วัน ทู ส้ม / one two som) and symbols between
+      Hat Yai and Malaysia makes transmission or shared inheritance the best
+      explanation of southern bird–stone–water.
+    layer: interpretation
+    status: partly_supported
+    sources: [dekd_2008, dbp_2018_osom]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: makes transmission or shared inheritance persuasive
+      - path: README.md
+        anchor: The strongest explanation is a shared peninsular tradition
+    notes: >
+      Supports a connection only. Route, direction and carriers are unknown;
+      the evidence is post-2008 and recollection.
+
+  - id: claim.south.chuchi_symbols
+    statement: >
+      A southern game called ฉู่ฉี้ is described with gun, water, brick and
+      drinking glass among its symbols.
+    layer: documented
+    status: partly_supported
+    sources: [thungsong_chuchi, thesis_chuchi]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: ปืน น้ำ ก้อนอิฐ แก้วน้ำ
+    notes: The two descriptions may share one source, so they are not independent.
+
+  - id: claim.malaysia.five_choice_version
+    statement: >
+      A Malaysian version uses bird, stone, gun, board and water.
+    layer: documented
+    status: unverified
+    sources: [book_108_songkhamtham]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: bird, stone, gun, board and water
+
+  - id: claim.phuket.glass_stone_water
+    statement: >
+      Phuket (and Krabi) players use glass–stone–water: stone breaks glass,
+      glass scoops water, stone sinks in water.
+    layer: testimony
+    status: partly_supported
+    sources: [facebook_wantusom_post]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: "| Phuket | glass–stone–water |"
+    notes: >
+      One post and its comments, held only as private screenshots. Nobody
+      else can re-check it from this repository.
+
+  - id: claim.phuket.dictionary_exists
+    statement: >
+      พจนานุกรมภาษาถิ่นภูเก็ต exists, edited by อนันต์ อารีย์พงศ์ for
+      โรงเรียนสตรีภูเก็ต, and is catalogued as 2559 BE / 2016.
+    layer: documented
+    status: supported
+    sources: [phuket_dictionary]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: The book exists
+
+  - id: claim.phuket.dictionary_entry
+    statement: >
+      The Phuket dialect dictionary has an entry for วันตูโส้ม matching the
+      Facebook post's description.
+    layer: absence
+    status: open
+    sources: [phuket_dictionary, facebook_wantusom_post]
+    searched: Catalogue records only. The printed book has not been consulted.
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: has not been located
+
+  - id: claim.phuket.hokkien_vocabulary
+    statement: >
+      Hokkien-speaking migrants brought Malay and English vocabulary into
+      Phuket, often after living in Malaya.
+    layer: documented
+    status: supported
+    sources: [tce_phuket_hokkien]
+    pages:
+      - path: 03-southern-thailand.md
+        anchor: Hokkien-speaking migrants
+    notes: Makes a route plausible for the game; does not show the game used it.
+
+  # --- Malay peninsula ---------------------------------------------------
+  - id: claim.malay.early_ethnography_unchecked
+    statement: >
+      Whether Hervey (1903) or Wilkinson (1925) describe an osom-type game is
+      not known.
+    layer: absence
+    status: open
+    sources: [hervey1903, wilkinson1925]
+    searched: Catalogue and database records only. Neither full text has been read.
+    pages:
+      - path: 04-malay-peninsula.md
+        anchor: was documented in 1903 or 1925
+
+  - id: claim.asean.one_two_som_2009
+    statement: >
+      The 2009 ASEAN compilation describes "One Two Som" / "One Two Juz" with
+      bird, water and stone (bird beats water, stone beats bird).
+    layer: documented
+    status: partly_supported
+    sources: [asean2009_compilation]
+    pages:
+      - path: 04-malay-peninsula.md
+        anchor: '"One Two Som" or "One Two Juz"'
+    notes: Indexed text only; the hosted PDF returned an error.
+
+  - id: claim.malay.kamaruddin_1954_1961
+    statement: >
+      Kamaruddin Abdullah (2013) recalls playing osom (bird, water, stone)
+      and opek during 1954–1961.
+    layer: recollection
+    status: supported
+    sources: [kamaruddin2013]
+    pages:
+      - path: 04-malay-peninsula.md
+        anchor: recollections around 1954–1961
+    notes: Supported as a recollection written in 2013, not as a 1950s document.
+
+  - id: claim.singapore.oh_bey_som
+    statement: >
+      BiblioAsia (2014) describes oh bey som as a palm-up / palm-down
+      procedure for forming teams or choosing a catcher.
+    layer: documented
+    status: supported
+    sources: [nor_afidah2014]
+    pages:
+      - path: 04-malay-peninsula.md
+        anchor: oh bey som
+
+  - id: claim.regional.family_tree
+    statement: >
+      The game travelled China → Malaya → southern Thailand.
+    layer: hypothesis
+    status: unsupported
+    sources: [dbp_2018_osom, kamaruddin2013, dekd_2008]
+    pages:
+      - path: 04-malay-peninsula.md
+        anchor: family tree remains a hypothesis
+
+  # --- regional comparisons ----------------------------------------------
+  - id: claim.indonesia.suten_rules
+    statement: >
+      Indonesian suit / suten uses thumb = elephant, index = human,
+      little finger = ant, with elephant > human > ant > elephant.
+    layer: documented
+    status: supported
+    sources: [tgr_suit, oktaviani_kinasih_suten]
+    pages:
+      - path: 05-regional-comparisons.md
+        anchor: "| thumb | elephant (*gajah*) | human |"
+
+  - id: claim.hawaii.ogawa_chant
+    statement: >
+      Ogawa's Jan Ken Po presents the game as brought from Japan and
+      localised in Hawaiʻi, with a localised chant.
+    layer: documented
+    status: supported
+    sources: [ogawa1982]
+    pages:
+      - path: 05-regional-comparisons.md
+        anchor: Junk An'a Po, I Canna Show
+    notes: From the publisher's description, not the book's text.
+
+  - id: claim.nz.hei_tama_matching
+    statement: >
+      Hei tama tū tama is a matching game, not a three-way dominance cycle.
+    layer: documented
+    status: supported
+    sources: [nz_moe_takaro]
+    pages:
+      - path: 05-regional-comparisons.md
+        anchor: It is a **matching** game
+
+  - id: claim.nz.best1925_ti_ringa
+    statement: >
+      Best's Games and Pastimes of the Maori (1925) has a section titled
+      "The game of ti ringa".
+    layer: documented
+    status: supported
+    sources: [best1925]
+    pages:
+      - path: 05-regional-comparisons.md
+        anchor: contents verified, chapter not examined
+    notes: Contents listing only; the rules of ti ringa are not taken from it.
+
+  - id: claim.india.toi2015_not_support
+    statement: >
+      The 2015 Times of India article cited for saa boo three concerns a
+      television game show and does not support an ancient origin.
+    layer: documented
+    status: supported
+    sources: [toi2015_saaboothree]
+    pages:
+      - path: 05-regional-comparisons.md
+        anchor: does not support an ancient origin
+
+  - id: claim.india.rps_origin
+    statement: >
+      Rock–paper–scissors, or elephant–human–ant, originated in India.
+    layer: hypothesis
+    status: unsupported
+    sources: [saaboothree_descriptions, toi2015_saaboothree]
+    pages:
+      - path: 05-regional-comparisons.md
+        anchor: that RPS originated in India

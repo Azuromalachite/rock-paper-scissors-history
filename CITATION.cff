@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these notes, please cite them as below, with the commit you used."
+title: "Rock–paper–scissors history: Siam, southern Thailand and the Malay Peninsula"
+type: dataset
+authors:
+  - family-names: Wongsatit
+    given-names: Thanakrit (Austin)
+repository-code: "https://github.com/Azuromalachite/rock-paper-scissors-history"
+license: CC-BY-4.0
+keywords:
+  - rock-paper-scissors
+  - เป่ายิ้งฉุบ
+  - children's games
+  - southern Thailand
+  - Malay Peninsula
+  - osom
+  - cultural history

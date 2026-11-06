@@ -40,12 +40,26 @@ a retrospective recollection, an informal online testimony, or an
 interpretation. These are kept separate on purpose. "A game is attested in
 place X in year Y" is not the same as "the game arrived in place X in year Y".
 
+## Evidence, checks and review
+
+| file | what it is |
+| --- | --- |
+| [evidence/claims.yml](evidence/claims.yml) | every load-bearing claim, with its kind (documented, recollection, testimony, interpretation, hypothesis, absence) and evidence status |
+| [evidence/sources.yml](evidence/sources.yml) | every source, and how deeply it has actually been read |
+| [evidence/check_evidence.py](evidence/check_evidence.py) | checks the two registries against each other and the pages (`python evidence/check_evidence.py`, needs PyYAML) |
+| [docs/review-process.md](docs/review-process.md) | the cycle of adversarial review rounds |
+| [reviews/](reviews/) | the review rounds themselves |
+| [docs/open-findings.md](docs/open-findings.md) | known defects not yet fixed |
+| [AGENTS.md](AGENTS.md) | the binding rules for anyone editing, human or AI |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | how to add a source, a claim or an oral history |
+
 ## Status and caveats
 
 - These are working research notes, compiled with AI-assisted literature
   searching in Thai, English, Japanese, Chinese and Malay sources. Sources are
   cited by name; links and page numbers have **not** all been independently
-  checked. Verify against the original before citing.
+  checked (see [open findings](docs/open-findings.md) OF-1 and OF-2). Verify
+  against the original before citing.
 - Some evidence comes from screenshots of a Facebook post and its comments
   (Phuket/Krabi variants). Those are not reproduced here.
 - Corrections, dated sources and oral histories are welcome via issues.
