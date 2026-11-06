@@ -21,6 +21,15 @@ dates and place names make them useful evidence that the variation was
 recognised by 2008. **Caveat:** the thread has not been re-located (r1/R1-2).
 The Hat Yai chant in particular rests on a single comment with no URL.
 
+An earlier, re-locatable source gives the chant name for **Songkhla**: a Dek-D
+article dated 7 February 2006, crediting love4home.com, lists Songkhla's
+วัน ตู ส้ม with bird, water, stone **and scissors**, and compares it to
+Malaysia's วัน ทู ซุม. It does not name Hat Yai, and a Songkhla reader disputed
+it in 2007 (see
+[07-thai-lao-khmer-local-variants.md](07-thai-lao-khmer-local-variants.md)).
+So the chant–name link between Songkhla and Malaysia is attested by 2006, in
+an editorial list rather than a first-hand report.
+
 ## The Malaysian parallel
 
 Documented, and checked against the source:
@@ -77,7 +86,8 @@ four symbols belong to one version.
 
 A Thai account attributed to the book *108 ซองคำถาม* describes a Malaysian
 version with bird, stone, gun, board and water (gun beats bird, water beats
-gun, …). A useful lead, but its abbreviated rules should not be read as a
+gun, …). The 2006 Dek-D article describes the same five signs for Malaysia
+(see note 07). Its abbreviated rules should still not be read as a
 standardised five-choice game.
 
 The mechanism is simple: children keep the competitive structure and change
@@ -128,7 +138,7 @@ so it is unverified whether the post reproduces it accurately.
 | claim in the post | assessment |
 | --- | --- |
 | Phuket has glass–stone–water | supported by the post and another commenter's locality-specific report |
-| วันตูโส้ม is related to Malaysian *one two som* | plausible; matches the regional comparison |
+| วันตูโส้ม is related to Malaysian *one two som* | plausible; matches the regional comparison. Malaysian *One Two Som* with glass–water–stone is documented by 2002 (Wong, ERIC ED471818, p. 461, no locality given); see [09-penang-phuket-transmission-hypotheses.md](09-penang-phuket-transmission-hypotheses.md) |
 | the expression originated during British colonial rule | not established |
 | the game split into exactly three historical "branches" | a proposed classification, not a demonstrated history |
 | water represents coastal communities' way of life | an interpretation; symbols alone cannot establish the reason |

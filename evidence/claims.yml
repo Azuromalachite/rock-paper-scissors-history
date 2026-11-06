@@ -475,3 +475,218 @@ claims:
     pages:
       - path: notes/05-regional-comparisons.md
         anchor: that RPS originated in India
+
+  # --- added from the 2026-11-06 handoff -----------------------------------
+  - id: claim.thai.dekd2006_regional_names
+    statement: >
+      A Dek-D article of 7 February 2006, crediting love4home.com, lists
+      regional names: northern โต โป้ง, Korat โอโป้ง and Surat Thani ชี โพ่ง
+      (the ordinary game), and Songkhla วัน ตู ส้ม with bird, water, stone and
+      scissors, compared to Malaysia's วัน ทู ซุม.
+    layer: documented
+    status: supported
+    sources: [dekd_2006]
+    pages:
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: credits its list to love4home.com
+    notes: An editorial list of unknown origin, not a survey.
+
+  - id: claim.thai.dekd2006_dissent
+    statement: >
+      Comments on the 2006 Dek-D list dispute it: a Korat reader did not know
+      the name given for Korat (8 Feb 2006), and a Songkhla reader says they
+      use the ordinary name (18 Mar 2007).
+    layer: testimony
+    status: supported
+    sources: [dekd_2006]
+    pages:
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: Dated comments push back on the list
+    notes: Supported as "these comments were made", not as a measure of local usage.
+
+  - id: claim.south.songkhla_chant_2006
+    statement: >
+      The chant name วัน ตู ส้ม was attested for Songkhla by 7 February 2006,
+      with a four-sign set (bird, water, stone, scissors).
+    layer: documented
+    status: supported
+    sources: [dekd_2006]
+    pages:
+      - path: notes/03-southern-thailand.md
+        anchor: the chant–name link between Songkhla and Malaysia is attested by 2006
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: the chant name วัน ตู ส้ม was attested for Songkhla
+    notes: A lower bound, not an origin. Partly addresses r1/R1-2. The Hat Yai attribution is still unsourced.
+
+  - id: claim.malaysia.five_sign_dekd2006
+    statement: >
+      The 2006 Dek-D article describes a Malaysian version with five signs:
+      bird, stone, gun, board and water.
+    layer: documented
+    status: supported
+    sources: [dekd_2006, book_108_songkhamtham]
+    pages:
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: For the Malaysian game, the same article describes five signs
+    notes: Supports that the description exists; not that this is a standard Malaysian game.
+
+  - id: claim.thai.unesco_chiangmai_thochub
+    statement: >
+      UNESCO's Let's Play – Chiang Mai (2011) catalogue description lists
+      "Tho-Chub" as hammer, scissors and paper.
+    layer: documented
+    status: supported
+    sources: [unesco_letsplay_chiangmai]
+    pages:
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: lists "Tho-Chub" as hammer, scissors and paper
+    notes: Catalogue text only; the film has not been watched.
+
+  - id: claim.laos.no_local_description
+    statement: >
+      No Lao description of a cyclic hand game with full gestures and scoring
+      was found.
+    layer: absence
+    status: open
+    sources: [unesco_letsplay_chiangmai]
+    searched: >
+      The handoff's search thread only, languages and queries not recorded;
+      Lao-script and French colonial sources were not searched.
+    pages:
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: A blank on the map is missing data.
+
+  - id: claim.cambodia.prigent_net_three
+    statement: >
+      In Prigent's Cambodian village (2013), the hand duel p̎āv ŝīṅ ŝuṅ
+      (hammer, leaf, knife/scissors) is scored to a net lead of three: wins
+      cancel.
+    layer: documented
+    status: supported
+    sources: [prigent2013]
+    pages:
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: This is a **net lead of three**
+    notes: One village, under a pseudonym; not "Cambodian scoring" in general.
+
+  - id: claim.cambodia.prigent_embedded_use
+    statement: >
+      In Prigent's material the duel mostly opens, settles or closes other
+      games (choosing a leader, ending paired duels) rather than standing
+      alone.
+    layer: documented
+    status: supported
+    sources: [prigent2013]
+    pages:
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: The duel is mostly **part of other games**
+
+  - id: claim.cambodia.prigent_sites_differ
+    statement: >
+      Prigent's 2013 village (Thnaot Chum, a changed name) and the 2025
+      abstract's village (Cheung Kok) may not be the same site.
+    layer: interpretation
+    status: open
+    sources: [prigent2013, prigent2025]
+    pages:
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: Its abstract names the village **Cheung Kok**
+
+  - id: claim.thai.first_to_three
+    statement: >
+      In the owner's experience of Thai play, a match is won by the first
+      player to three round wins.
+    layer: testimony
+    status: partly_supported
+    sources: [owner_scoring_observation]
+    pages:
+      - path: notes/07-thai-lao-khmer-local-variants.md
+        anchor: The owner's own experience of Thai play is **first to three round wins**
+      - path: notes/08-play-cultural-packages-and-theory.md
+        anchor: is **first to three round wins**
+    notes: One first-hand report; locality and cohort not recorded.
+
+  - id: claim.malaysia.wong2002_glass
+    statement: >
+      Wong (2002), ERIC ED471818 p. 461, documents Malaysian "One Two Som"
+      with glass, water and stone (glass contains water, water drowns stone,
+      stone breaks glass), naming no locality.
+    layer: documented
+    status: supported
+    sources: [wong2002_eric]
+    pages:
+      - path: notes/09-penang-phuket-transmission-hypotheses.md
+        anchor: glass–water–stone under the name One Two Som is documented for Malaysia
+      - path: notes/03-southern-thailand.md
+        anchor: documented by 2002
+    notes: A lower bound for Malaysia, not an origin; no Penang link.
+
+  - id: claim.malaysia.penang_forum_2005
+    statement: >
+      A January 2005 forum thread on Penang Hokkien recalls som tri / one two
+      som with cup, sea or water, and stone.
+    layer: recollection
+    status: unverified
+    sources: [penang_forum_2005]
+    pages:
+      - path: notes/09-penang-phuket-transmission-hypotheses.md
+        anchor: The Penang link rests on one forum thread nobody has re-opened.
+
+  - id: claim.regional.penang_phuket_contact
+    statement: >
+      Nineteenth-century commercial, migration and kinship links joined
+      Penang and Phuket through Hokkien/Baba communities.
+    layer: documented
+    status: unverified
+    sources: [khoo2009_jmbras, tce_phuket_hokkien]
+    pages:
+      - path: notes/09-penang-phuket-transmission-hypotheses.md
+        anchor: describes nineteenth-century commercial, migration and kinship links
+    notes: Context only; not evidence that the game used these links.
+
+  - id: claim.regional.penang_phuket_transmission
+    statement: >
+      Glass–water–stone travelled between Penang and Phuket through the
+      Hokkien/Baba network.
+    layer: hypothesis
+    status: open
+    sources: [wong2002_eric, penang_forum_2005, facebook_wantusom_post, khoo2009_jmbras]
+    pages:
+      - path: notes/09-penang-phuket-transmission-hypotheses.md
+        anchor: A documented contact network is **not** a documented game transmission.
+
+  - id: claim.regional.joined_fingers_reinterpreted
+    statement: >
+      The joined-fingers sign is read as bird in some places and cup or glass
+      in others, with the cycle unchanged.
+    layer: hypothesis
+    status: open
+    sources: [asean2009_compilation, wong2002_eric]
+    pages:
+      - path: notes/09-penang-phuket-transmission-hypotheses.md
+        anchor: Local reinterpretation of one hand shape
+    notes: Both documented gestures are fingers held close together (ASEAN 2009 bird; Wong 2002 glass). Which came first is unknown.
+
+  - id: claim.tonga.liagi_matching
+    statement: >
+      Mariner (1817) describes Tongan li'agi as a simultaneous-gesture
+      matching game (open hand, closed hand, index finger), not a cyclic
+      dominance game.
+    layer: documented
+    status: supported
+    sources: [mariner1817]
+    pages:
+      - path: notes/05-regional-comparisons.md
+        anchor: It is a **matching** game, not early Pacific
+
+  - id: claim.austrogames.scope
+    statement: >
+      The Austronesian Game Taxonomy codes 907 games; its PLOS ONE companion
+      analyses 168 games from 25 ethnolinguistic groups, with observational
+      associations only.
+    layer: documented
+    status: supported
+    sources: [austrogames_taxonomy2021, austrogames_plos2021]
+    pages:
+      - path: notes/08-play-cultural-packages-and-theory.md
+        anchor: the taxonomy paper codes 907 rule-based games

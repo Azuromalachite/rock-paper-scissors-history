@@ -67,6 +67,23 @@ Older ethnography: Elsdon Best, *Games and Pastimes of the Māori* (1925); the
 indexed contents include "The game of ti ringa". Bibliographic record and
 contents verified, chapter not examined.
 
+## Tonga and Samoa: early simultaneous gestures, not a cycle
+
+**Tonga, *li'agi*.** John Martin's *An Account of the Natives of the Tonga
+Islands* (1817), from William Mariner's account, vol. II, pp. 339–341,
+describes players showing an open hand, a closed hand or an extended index
+finger at the same moment. If the opponent makes the **same** sign, the turn
+passes. A player scores only by not being matched, five times in a row, and
+players justify their moves in a technical vocabulary. The text links it with
+chiefs and "matabooles". It is a **matching** game, not early Pacific
+rock–paper–scissors. On p. 344 Mariner describes *matooa*, a similar game
+without the discussion of moves, which he says the lower orders played. So
+li'agi's link to rank is not the whole picture.
+
+**Samoa, *lupe*.** The handoff reports nineteenth-century descriptions, linked
+to the 1838–1842 U.S. Exploring Expedition, of simultaneous finger-number
+matching. Not checked, and no cyclic dominance has been shown.
+
 No comparably strong evidence was found for early RPS in Fiji, Samoa, Tonga or
 Micronesia; Hawaiʻi cannot stand in for all of them.
 

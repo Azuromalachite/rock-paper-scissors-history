@@ -5,6 +5,7 @@
 #   indexed_text       a search-engine or database text of it was read, not the original
 #   catalogue_record   only a library / publisher record (establishes existence, date, author)
 #   secondary_report   only someone else's description of it
+#   oral_report        a first-hand account given directly to this project
 #   user_screenshot    a private screenshot the owner holds; not in this repository
 #   not_located        cited by description only; nobody has identified the exact item
 #
@@ -516,3 +517,169 @@ sources:
     accessed: null
     locator: null
     notes: About a television game show; cited by Wikipedia for the traditional game. Not checked in review r1.
+
+  # --- added from the 2026-11-06 handoff; checked by a verifier agent the same day
+  - key: dekd_2006
+    title: เป่า ยิ้ง ฉุบ ในแต่ละที่
+    author: Dek-D (list credited to love4home.com)
+    date: 2006-02-07 (stamped 07/02/49); comments to 2007-03-18
+    language: th
+    access: primary_inspected
+    by: verifier agent; Songkhla line and date re-checked by the author
+    when: 2026-11-06
+    relocated: true
+    url: https://www.dek-d.com/lifestyle/237/
+    archived: null
+    accessed: 2026-11-06
+    locator: article body; comments #3, #4, #16, #18, #19 (numbering has gaps)
+    notes: No Wayback capture exists; one should be made. Commenters are not named here. Different from dekd_2008, which is still not found.
+
+  - key: wong2002_eric
+    title: "Malaysia in Our Classroom: Activities, in Malaysia/Singapore: Where Asian Cultures Meet (Fulbright-Hays Seminars Abroad 2001)"
+    author: Michael Wong
+    date: 2002
+    language: en
+    access: primary_inspected
+    by: verifier agent; text re-checked by the author
+    when: 2026-11-06
+    relocated: true
+    url: https://files.eric.ed.gov/fulltext/ED471818.pdf
+    archived: http://web.archive.org/web/20250424230418/https://files.eric.ed.gov/fulltext/ED471818.pdf
+    accessed: 2026-11-06
+    locator: ERIC ED471818; printed p. 461 (PDF p. 462), Game #4 "ONE TWO SOM"
+    notes: Glass–water–stone. No locality named.
+
+  - key: penang_forum_2005
+    title: Thread on Penang Hokkien, "La la li la tam pong" (chineselanguage.org forum, t=1611)
+    author: forum participants (not named)
+    date: 2005-01 (as reported)
+    language: en
+    access: secondary_report
+    by: research handoff 2026-11-06
+    when: 2026-11-06
+    relocated: false
+    url: https://www.chineselanguage.org/forums/viewtopic.php?start=10&t=1611
+    archived: null
+    accessed: null
+    locator: null
+    notes: Live site returns HTTP 502; the only Wayback capture (2021-05-03) is a 404. Known only from the handoff's description.
+
+  - key: khoo2009_jmbras
+    title: "Hokkien Chinese on the Phuket Mining Frontier: The Penang Connection and the Emergence of the Phuket Baba Community"
+    author: Khoo Salma Nasution
+    date: 2009
+    language: en
+    access: secondary_report
+    by: verifier agent (search results only)
+    when: 2026-11-06
+    relocated: false
+    url: null
+    archived: null
+    accessed: null
+    locator: Journal of the Malaysian Branch of the Royal Asiatic Society 82(2), pages not verified
+    notes: The handoff called it a book; search results point to a journal article.
+
+  - key: prigent2013
+    title: "Rythmes et euphonies dans les jeux mains-bouche. Un zoom ethnographique sur la sociabilité entre enfants (Cambodge)"
+    author: Steven Prigent
+    date: 2013
+    language: fr
+    access: primary_inspected
+    by: verifier agent (via Wayback; live page behind a bot check)
+    when: 2026-11-06
+    relocated: true
+    url: https://doi.org/10.4000/moussons.2385
+    archived: http://web.archive.org/web/20250705111607/https://journals.openedition.org/moussons/2385
+    accessed: 2026-11-06
+    locator: Moussons 22, 125–151; OpenEdition ¶2 (site), ¶8 (signs), ¶9 (scoring), ¶10–12 and ¶49 (uses)
+    notes: Village "Thnaot Chum", Kompong Cham, a name the author says he changed.
+
+  - key: prigent2025
+    title: "Premières tensions morales entre pairs : jouer avec les mots et les mains, à l'âge enfantin, dans un village cambodgien"
+    author: Steven Prigent
+    date: 2025
+    language: fr
+    access: catalogue_record
+    by: verifier agent (Crossref metadata and abstract)
+    when: 2026-11-06
+    relocated: true
+    url: https://doi.org/10.4000/144w3
+    archived: http://web.archive.org/web/20260122194637/https://journals.openedition.org/clo/14079
+    accessed: 2026-11-06
+    locator: Cahiers de littérature orale 97; abstract
+    notes: Abstract names Cheung Kok. Body not read.
+
+  - key: mariner1817
+    title: An Account of the Natives of the Tonga Islands, vol. II
+    author: John Martin, from the communications of William Mariner
+    date: 1817
+    language: en
+    access: primary_inspected
+    by: verifier agent
+    when: 2026-11-06
+    relocated: true
+    url: https://darwin-online.org.uk/converted/Ancillary/BeagleLibrary/1817_Mariner_A710.02.html
+    archived: null
+    accessed: 2026-11-06
+    locator: vol. II pp. 339–341 (li'agi); p. 344 (matooa)
+    notes: null
+
+  - key: unesco_letsplay_chiangmai
+    title: Let's Play – Chiang Mai (documentary, 10 min)
+    author: UNESCO Bangkok; dir. David A. Feingold; Ophidian Films
+    date: 2011
+    language: th
+    access: catalogue_record
+    by: verifier agent (2021 Wayback copy of the catalogue page)
+    when: 2026-11-06
+    relocated: true
+    url: https://www.unesco.org/archives/multimedia/document-3169
+    archived: http://web.archive.org/web/20210301214348/http://www.unesco.org/archives/multimedia/document-3169
+    accessed: 2026-11-06
+    locator: description list, 4th entry
+    notes: The film itself has not been watched. Part of the Traditional Children's Games in South-East Asia box set.
+
+  - key: austrogames_taxonomy2021
+    title: "The Austronesian Game Taxonomy: A cross-cultural dataset of historical games"
+    author: Leisterer-Peoples, Hardecker, Watts, Greenhill, Ross, Haun
+    date: 2021-05-12
+    language: en
+    access: primary_inspected
+    by: verifier agent
+    when: 2026-11-06
+    relocated: true
+    url: https://doi.org/10.1057/s41599-021-00785-y
+    archived: http://web.archive.org/web/20230614043656/https://www.nature.com/articles/s41599-021-00785-y
+    accessed: 2026-11-06
+    locator: Humanities and Social Sciences Communications 8, 113; Technical validation (907 games); Data records (Zenodo 4675217)
+    notes: States descriptions are "available upon request" but also lists them on Zenodo and GitHub (ccp-eva/AustroGames).
+
+  - key: austrogames_plos2021
+    title: "Games and enculturation: A cross-cultural analysis of cooperative goal structures in Austronesian games"
+    author: Leisterer-Peoples, Ross, Greenhill, Hardecker, Haun
+    date: 2021-11-24
+    language: en
+    access: primary_inspected
+    by: verifier agent
+    when: 2026-11-06
+    relocated: true
+    url: https://doi.org/10.1371/journal.pone.0259746
+    archived: http://web.archive.org/web/20261010211607/https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0259746
+    accessed: 2026-11-06
+    locator: PLOS ONE 16(11), e0259746; Results, first paragraph
+    notes: Observational associations; 168 games, 25 ethnolinguistic groups.
+
+  - key: owner_scoring_observation
+    title: The owner's own experience of Thai match scoring
+    author: repository owner
+    date: 2026-11-06 (reported)
+    language: th
+    access: oral_report
+    by: repository owner
+    when: 2026-11-06
+    relocated: false
+    url: null
+    archived: null
+    accessed: null
+    locator: docs/handoffs/2026-11-06-thread-handoff.md, section 6
+    notes: Locality and age cohort not yet recorded.

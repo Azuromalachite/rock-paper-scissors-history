@@ -38,7 +38,7 @@ LAYERS = {"documented", "recollection", "testimony", "interpretation",
           "hypothesis", "absence"}
 STATUSES = {"supported", "partly_supported", "unverified", "unsupported", "open"}
 ACCESS = ["primary_inspected", "indexed_text", "catalogue_record",
-          "secondary_report", "user_screenshot", "not_located"]
+          "secondary_report", "oral_report", "user_screenshot", "not_located"]
 SUPPORTING_ACCESS = set(ACCESS[:3])
 CLAIM_ID_RE = re.compile(r"^claim\.[a-z0-9_]+(\.[a-z0-9_]+)+$")
 CLAIM_MENTION_RE = re.compile(r"\bclaim\.[a-z0-9_]+(?:\.[a-z0-9_]+)+")

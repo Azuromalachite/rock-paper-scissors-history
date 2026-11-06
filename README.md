@@ -35,8 +35,16 @@ around two questions:
 | [02-thailand.md](notes/02-thailand.md) | Thai documentary anchors, the WWII hypothesis, the word เป่ายิ้งฉุบ |
 | [03-southern-thailand.md](notes/03-southern-thailand.md) | Bird–stone–water, bird–gun–water, ฉู่ฉี้, the Phuket glass variant |
 | [04-malay-peninsula.md](notes/04-malay-peninsula.md) | Anthropology and cultural history of *osom* and related hand games |
-| [05-regional-comparisons.md](notes/05-regional-comparisons.md) | Indonesia, Hawaiʻi, Aotearoa/New Zealand, India |
+| [05-regional-comparisons.md](notes/05-regional-comparisons.md) | Indonesia, Hawaiʻi, Tonga and Samoa, Aotearoa/New Zealand, India |
 | [06-open-questions.md](notes/06-open-questions.md) | What would actually resolve the open questions |
+| [07-thai-lao-khmer-local-variants.md](notes/07-thai-lao-khmer-local-variants.md) | Local Thai names (the 2006 Dek-D list and its critics), UNESCO Chiang Mai, the Lao gap, Prigent's Cambodian ethnography and its net-lead scoring |
+| [08-play-cultural-packages-and-theory.md](notes/08-play-cultural-packages-and-theory.md) | Round, match and episode; four stopping rules; what a hand game does socially; the ethnographic and comparative lineages, including AustroGames |
+| [09-penang-phuket-transmission-hypotheses.md](notes/09-penang-phuket-transmission-hypotheses.md) | Glass–water–stone in Malaysia by 2002, the Penang link, and the hypotheses kept apart |
+
+Notes 07–09 and the additions to 01 and 05 come from a research handoff of
+2026-11-06 ([docs/handoffs/](docs/handoffs/2026-11-06-thread-handoff.md)).
+Its key sources were re-checked the same day, and the notes follow the
+sources where they disagree with it.
 
 ## How to read these notes
 

@@ -34,3 +34,21 @@ Japan's earlier cyclic games used other symbols. *Mushi-ken*, which Culin
 also describes, used frog, slug and snake. Other games used human and animal
 characters. The shared principle was that each choice defeats one opponent and
 loses to another.
+
+The research handoff of 2026-11-06 adds leads, **none checked here**:
+
+- *kitsune-ken* (fox, village head, hunter), with illustrations reported from
+  1774, and a *mushi-ken* illustration from 1809;
+- a scholarly claim of a 1756 printed reference to *mushi-ken*;
+- a proposed link between *mushi-ken* and a Chinese snake–frog–centipede
+  cycle;
+- Korean 가위바위보 (scissors, rock, wrapping cloth) and 묵찌빠, which uses
+  the same gestures in a different contest;
+- Okinawan and Amami frog–slug–snake games (*būsa*, Okinoerabu さみ).
+
+A starting point for the scholarship is Sepp Linhart (1995), "Some Thoughts on
+the Ken Game in Japan: From the Viewpoint of Comparative Civilization
+Studies", *Senri Ethnological Studies* 40: 101–124, doi:10.15021/00003009.
+The symbols, hand shapes, chants, the matching-versus-dominance mechanism and
+the match rules may each have their own history. Modern janken should not be
+read back into every recorded *ken*.

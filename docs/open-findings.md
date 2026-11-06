@@ -23,7 +23,7 @@ Each stays open until its source is re-located:
 
 | ID | what is still missing |
 | --- | --- |
-| r1/R1-2 | the 2008 Dek-D thread with the Hat Yai chant วัน ทู ส้ม |
+| r1/R1-2 | the 2008 Dek-D thread with the Hat Yai chant วัน ทู ส้ม. Partly eased: a 2006 Dek-D list attests วัน ตู ส้ม for Songkhla (not Hat Yai), with a four-sign set. |
 | r1/R1-5 | the DBP 2018 enquiry; the Malaysian artist and outlet |
 | r1/R1-6 | Kamaruddin Abdullah, "The Games We Played" (2013) |
 | r1/R1-12 | the Thai Junior Encyclopedia vol. 13 text and catalogue record; the Thailand Cultural Encyclopedia entry; the 2008 Dek-D article |
@@ -58,6 +58,28 @@ Every `access` level was reached by a single AI-assisted search pass, before
 
 **Correction:** review rounds (`docs/review-process.md`). Each source a
 reviewer re-checks gets its `by` / `when` updated in the fixing commit.
+
+### OF-5: notes 07–09 have not been through a review round
+
+**Severity:** medium · **Location:** `notes/07-…09-*.md`, additions to 01 and
+05, and the 17 claims added on 2026-11-06
+
+The material came from a research handoff. Its key sources were checked the
+same day by a verifier agent, with spot checks by the author, and the
+check corrected the handoff in four places:
+
+- the Dek-D 2006 Songkhla entry has four signs, and the article does not name
+  Hat Yai;
+- Wong 2002 names no locality;
+- Khoo 2009 is an article, not a book;
+- the AustroGames descriptions are on Zenodo.
+
+The verifier was briefed by the author, though, so this is not an
+independent review. Several leads in notes 01, 05 and 07 are explicitly
+unchecked.
+
+**Correction:** include notes 07–09 in round 2. The reviewer is given the
+repository and the review process, not the handoff conversation.
 
 ### OF-4: the Phuket variant rests on evidence outside the repository
 

@@ -29,6 +29,20 @@ oral history will.
   the game in 1940 is valuable but carries different evidential weight from a
   document printed in 1940.
 
+## Beyond the South
+
+- **Scoring:** record the stopping rule with every observation. Ask: "If A
+  wins, then B, then A twice, has anyone won?" That separates first-to-three
+  from a net lead of three (note 08).
+- **Laos:** search Lao-script, Thai/Isan and French colonial sources, and
+  community-specific ones (Tai Lue, Khmu, Hmong). UNESCO's *Traditional
+  Children's Games in South-East Asia* box set is the first archive to try.
+- **Penang–Phuket:** write down, before collecting, what would count against
+  the route (note 09).
+- **Unchecked leads from the handoff:** the Isan and Sisaket โอส้ม reports,
+  the UNESCO-derived Mae Hong Son and Akha names, the Japanese 1756/1774/1809
+  dates, Samoan *lupe*, and the 2005 Penang forum thread.
+
 ## Current defensible answers
 
 - The first Thai/Siamese occurrence is unidentified. The earliest dated Thai
