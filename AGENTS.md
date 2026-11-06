@@ -24,7 +24,7 @@ whether a sentence is faithful to its source. Humans and reviewers do that part
 | --- | --- |
 | each load-bearing claim, its kind (`layer`), its evidence state (`status`) | `evidence/claims.yml` |
 | each source, how it was accessed, where it is | `evidence/sources.yml` |
-| prose for readers | `README.md`, `01-…06-*.md` |
+| prose for readers | `README.md`, `notes/*.md` |
 | known defects not yet fixed | `docs/open-findings.md` |
 | review rounds | `reviews/` |
 

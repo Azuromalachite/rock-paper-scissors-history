@@ -60,7 +60,7 @@ reviewer re-checks gets its `by` / `when` updated in the fixing commit.
 
 ### OF-3: the prose calls Culin 1895 "firm" but it has not been read
 
-**Severity:** medium · **Location:** `01-global-chronology.md`, 1895 row;
+**Severity:** medium · **Location:** `notes/01-global-chronology.md`, 1895 row;
 `claim.japan.culin_1895`
 
 The chronology calls Culin (1895) "a firm documentary anchor", but the notes
@@ -74,7 +74,7 @@ then either keep "firm" with the locator, or soften the prose.
 
 ### OF-4: the Phuket variant rests on evidence outside the repository
 
-**Severity:** low · **Location:** `03-southern-thailand.md`,
+**Severity:** low · **Location:** `notes/03-southern-thailand.md`,
 `claim.phuket.glass_stone_water`
 
 The glass–stone–water rules and the Phuket/Krabi locality reports come from

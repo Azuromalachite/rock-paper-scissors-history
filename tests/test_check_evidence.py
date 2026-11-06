@@ -33,8 +33,8 @@ S = "evidence/sources.yml"
 # name: (file or "DELETE", old, new, expected message, checker condition or None)
 CASES = {
     "unknown source key": (
-        C, "sources: [xie_wuzazu]\n    pages:\n      - path: 01-global-chronology.md\n        anchor: should not",
-        "sources: [no_such_source, xie_wuzazu]\n    pages:\n      - path: 01-global-chronology.md\n        anchor: should not",
+        C, "sources: [xie_wuzazu]\n    pages:\n      - path: notes/01-global-chronology.md\n        anchor: should not",
+        "sources: [no_such_source, xie_wuzazu]\n    pages:\n      - path: notes/01-global-chronology.md\n        anchor: should not",
         "unknown source 'no_such_source'", "if k not in source_by_key:"),
     "layer out of vocabulary": (
         C, "layer: recollection", "layer: memory",
@@ -57,13 +57,13 @@ CASES = {
         "'supported' needs a source at",
         'if status == "supported" and not read_deep_enough:'),
     "anchor edited away from page": (
-        "01-global-chronology.md", "It does not describe modern rock–paper–scissors.",
+        "notes/01-global-chronology.md", "It does not describe modern rock–paper–scissors.",
         "It does not describe the game.",
-        "anchor not found in 01-global-chronology.md",
+        "anchor not found in notes/01-global-chronology.md",
         "elif norm(str(anchor)) not in text:"),
     "page missing": (
-        "DELETE", "05-regional-comparisons.md", None,
-        "page 05-regional-comparisons.md does not exist",
+        "DELETE", "notes/05-regional-comparisons.md", None,
+        "page notes/05-regional-comparisons.md does not exist",
         None),  # cannot be disabled: the anchor check would then read a missing file
     "duplicate claim id": (
         C, "id: claim.china.han_origin\n", "id: claim.china.wuzazu_not_rps\n",
@@ -79,7 +79,7 @@ CASES = {
         C, "sources: [best1925]", "sources: [nz_moe_takaro]",
         "'best1925' is not used by any claim", "if k not in used:"),
     "unknown claim mentioned in prose": (
-        "06-open-questions.md", "# 6. What would resolve the open questions",
+        "notes/06-open-questions.md", "# 6. What would resolve the open questions",
         "# 6. What would resolve the open questions\n\nSee claim.thai.no_such_claim.",
         "mentions unknown claim claim.thai.no_such_claim", "if m not in seen_ids:"),
 }

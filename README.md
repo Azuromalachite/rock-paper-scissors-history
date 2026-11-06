@@ -26,12 +26,12 @@ around two questions:
 
 | file | topic |
 | --- | --- |
-| [01-global-chronology.md](01-global-chronology.md) | What "the origin of RPS" can mean; China, Japan, the 1895 anchor, international spread |
-| [02-thailand.md](02-thailand.md) | Thai documentary anchors, the WWII hypothesis, the word เป่ายิ้งฉุบ |
-| [03-southern-thailand.md](03-southern-thailand.md) | Bird–stone–water, bird–gun–water, ฉู่ฉี้, the Phuket glass variant |
-| [04-malay-peninsula.md](04-malay-peninsula.md) | Anthropology and cultural history of *osom* and related hand games |
-| [05-regional-comparisons.md](05-regional-comparisons.md) | Indonesia, Hawaiʻi, Aotearoa/New Zealand, India |
-| [06-open-questions.md](06-open-questions.md) | What would actually resolve the open questions |
+| [01-global-chronology.md](notes/01-global-chronology.md) | What "the origin of RPS" can mean; China, Japan, the 1895 anchor, international spread |
+| [02-thailand.md](notes/02-thailand.md) | Thai documentary anchors, the WWII hypothesis, the word เป่ายิ้งฉุบ |
+| [03-southern-thailand.md](notes/03-southern-thailand.md) | Bird–stone–water, bird–gun–water, ฉู่ฉี้, the Phuket glass variant |
+| [04-malay-peninsula.md](notes/04-malay-peninsula.md) | Anthropology and cultural history of *osom* and related hand games |
+| [05-regional-comparisons.md](notes/05-regional-comparisons.md) | Indonesia, Hawaiʻi, Aotearoa/New Zealand, India |
+| [06-open-questions.md](notes/06-open-questions.md) | What would actually resolve the open questions |
 
 ## How to read these notes
 

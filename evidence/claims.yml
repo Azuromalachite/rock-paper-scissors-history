@@ -26,7 +26,7 @@ claims:
     status: supported
     sources: [xie_wuzazu]
     pages:
-      - path: 01-global-chronology.md
+      - path: notes/01-global-chronology.md
         anchor: It does not describe modern rock–paper–scissors.
 
   - id: claim.china.han_origin
@@ -36,7 +36,7 @@ claims:
     status: unsupported
     sources: [xie_wuzazu]
     pages:
-      - path: 01-global-chronology.md
+      - path: notes/01-global-chronology.md
         anchor: should not be repeated as a demonstrated fact
     notes: The passage usually cited for it does not support it.
 
@@ -48,7 +48,7 @@ claims:
     status: unverified
     sources: [japanese_ken_references]
     pages:
-      - path: 01-global-chronology.md
+      - path: notes/01-global-chronology.md
         anchor: used frog, slug and snake
 
   - id: claim.japan.emergence_1804_1843
@@ -59,7 +59,7 @@ claims:
     status: partly_supported
     sources: [ndl_crd_janken]
     pages:
-      - path: 01-global-chronology.md
+      - path: notes/01-global-chronology.md
         anchor: estimates emergence during 1804–1843
     notes: The estimate is the guide's own, with acknowledged uncertainty.
 
@@ -71,7 +71,7 @@ claims:
     status: partly_supported
     sources: [culin1895]
     pages:
-      - path: 01-global-chronology.md
+      - path: notes/01-global-chronology.md
         anchor: A firm documentary anchor.
     notes: >
       The prose calls this firm, but the book itself has not been read: only
@@ -85,7 +85,7 @@ claims:
     status: partly_supported
     sources: [buescher_rochambeau]
     pages:
-      - path: 01-global-chronology.md
+      - path: notes/01-global-chronology.md
         anchor: describes it as "Rochambeau"
 
   # --- Thailand ----------------------------------------------------------
@@ -100,9 +100,9 @@ claims:
       One AI-assisted search pass in Thai, English, Japanese, Chinese and
       Malay web material. Exact queries and collections were not recorded.
       Prewar newspapers, school manuals, children's magazines and historical
-      dictionaries were not searched (see 06-open-questions.md).
+      dictionaries were not searched (see notes/06-open-questions.md).
     pages:
-      - path: 02-thailand.md
+      - path: notes/02-thailand.md
         anchor: No first occurrence, first introduction or securely dated pre-1939
       - path: README.md
         anchor: No securely dated pre-1939 Siamese record was found.
@@ -115,7 +115,7 @@ claims:
     status: supported
     sources: [thai_junior_encyclopedia_v13]
     pages:
-      - path: 02-thailand.md
+      - path: notes/02-thailand.md
         anchor: catalogued as 2532 BE / 1989
     notes: Supported for the online text; linking it to the printed 1989 pages is still to do.
 
@@ -127,7 +127,7 @@ claims:
     status: supported
     sources: [tce_central_games]
     pages:
-      - path: 02-thailand.md
+      - path: notes/02-thailand.md
         anchor: ยันยีเยา ปักเป้ายิ้งฉุบ
 
   - id: claim.thai.wwii_hypothesis_circulating_2008
@@ -138,7 +138,7 @@ claims:
     status: supported
     sources: [dekd_2008]
     pages:
-      - path: 02-thailand.md
+      - path: notes/02-thailand.md
         anchor: A Japanese/WWII introduction hypothesis was circulating by then
 
   - id: claim.thai.wwii_introduction
@@ -149,7 +149,7 @@ claims:
     status: unsupported
     sources: [dekd_2008]
     pages:
-      - path: 02-thailand.md
+      - path: notes/02-thailand.md
         anchor: Treat it as an origin hypothesis, not a historical finding.
       - path: README.md
         anchor: is an unsourced hypothesis
@@ -163,7 +163,7 @@ claims:
     status: unverified
     sources: [thai_etymology_article]
     pages:
-      - path: 02-thailand.md
+      - path: notes/02-thailand.md
         anchor: not an established etymology
 
   # --- southern Thailand -------------------------------------------------
@@ -176,7 +176,7 @@ claims:
     status: supported
     sources: [dekd_2008]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: recognised by 2008
     notes: Informal comments, not a survey. Supports "reported", not "the practice of the province".
 
@@ -188,7 +188,7 @@ claims:
     status: supported
     sources: [dbp_2018_osom]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: This establishes contemporary usage, not etymology.
 
   - id: claim.malaysia.osom_recollection_artist
@@ -198,7 +198,7 @@ claims:
     status: unverified
     sources: [malaysian_artist_osom, malaysian_reporting_osom]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: burung, batu,
 
   - id: claim.singapore.folklore_cycle
@@ -209,7 +209,7 @@ claims:
     status: unverified
     sources: [singapore_schoolyard_folklore]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: recorded in Singaporean schoolyard folklore
 
   - id: claim.south.peninsular_connection
@@ -221,7 +221,7 @@ claims:
     status: partly_supported
     sources: [dekd_2008, dbp_2018_osom]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: makes transmission or shared inheritance persuasive
       - path: README.md
         anchor: The strongest explanation is a shared peninsular tradition
@@ -237,7 +237,7 @@ claims:
     status: partly_supported
     sources: [thungsong_chuchi, thesis_chuchi]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: ปืน น้ำ ก้อนอิฐ แก้วน้ำ
     notes: The two descriptions may share one source, so they are not independent.
 
@@ -248,7 +248,7 @@ claims:
     status: unverified
     sources: [book_108_songkhamtham]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: bird, stone, gun, board and water
 
   - id: claim.phuket.glass_stone_water
@@ -259,7 +259,7 @@ claims:
     status: partly_supported
     sources: [facebook_wantusom_post]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: "| Phuket | glass–stone–water |"
     notes: >
       One post and its comments, held only as private screenshots. Nobody
@@ -273,7 +273,7 @@ claims:
     status: supported
     sources: [phuket_dictionary]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: The book exists
 
   - id: claim.phuket.dictionary_entry
@@ -285,7 +285,7 @@ claims:
     sources: [phuket_dictionary, facebook_wantusom_post]
     searched: Catalogue records only. The printed book has not been consulted.
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: has not been located
 
   - id: claim.phuket.hokkien_vocabulary
@@ -296,7 +296,7 @@ claims:
     status: supported
     sources: [tce_phuket_hokkien]
     pages:
-      - path: 03-southern-thailand.md
+      - path: notes/03-southern-thailand.md
         anchor: Hokkien-speaking migrants
     notes: Makes a route plausible for the game; does not show the game used it.
 
@@ -310,7 +310,7 @@ claims:
     sources: [hervey1903, wilkinson1925]
     searched: Catalogue and database records only. Neither full text has been read.
     pages:
-      - path: 04-malay-peninsula.md
+      - path: notes/04-malay-peninsula.md
         anchor: was documented in 1903 or 1925
 
   - id: claim.asean.one_two_som_2009
@@ -321,7 +321,7 @@ claims:
     status: partly_supported
     sources: [asean2009_compilation]
     pages:
-      - path: 04-malay-peninsula.md
+      - path: notes/04-malay-peninsula.md
         anchor: '"One Two Som" or "One Two Juz"'
     notes: Indexed text only; the hosted PDF returned an error.
 
@@ -333,7 +333,7 @@ claims:
     status: supported
     sources: [kamaruddin2013]
     pages:
-      - path: 04-malay-peninsula.md
+      - path: notes/04-malay-peninsula.md
         anchor: recollections around 1954–1961
     notes: Supported as a recollection written in 2013, not as a 1950s document.
 
@@ -345,7 +345,7 @@ claims:
     status: supported
     sources: [nor_afidah2014]
     pages:
-      - path: 04-malay-peninsula.md
+      - path: notes/04-malay-peninsula.md
         anchor: oh bey som
 
   - id: claim.regional.family_tree
@@ -355,7 +355,7 @@ claims:
     status: unsupported
     sources: [dbp_2018_osom, kamaruddin2013, dekd_2008]
     pages:
-      - path: 04-malay-peninsula.md
+      - path: notes/04-malay-peninsula.md
         anchor: family tree remains a hypothesis
 
   # --- regional comparisons ----------------------------------------------
@@ -367,7 +367,7 @@ claims:
     status: supported
     sources: [tgr_suit, oktaviani_kinasih_suten]
     pages:
-      - path: 05-regional-comparisons.md
+      - path: notes/05-regional-comparisons.md
         anchor: "| thumb | elephant (*gajah*) | human |"
 
   - id: claim.hawaii.ogawa_chant
@@ -378,7 +378,7 @@ claims:
     status: supported
     sources: [ogawa1982]
     pages:
-      - path: 05-regional-comparisons.md
+      - path: notes/05-regional-comparisons.md
         anchor: Junk An'a Po, I Canna Show
     notes: From the publisher's description, not the book's text.
 
@@ -389,7 +389,7 @@ claims:
     status: supported
     sources: [nz_moe_takaro]
     pages:
-      - path: 05-regional-comparisons.md
+      - path: notes/05-regional-comparisons.md
         anchor: It is a **matching** game
 
   - id: claim.nz.best1925_ti_ringa
@@ -400,7 +400,7 @@ claims:
     status: supported
     sources: [best1925]
     pages:
-      - path: 05-regional-comparisons.md
+      - path: notes/05-regional-comparisons.md
         anchor: contents verified, chapter not examined
     notes: Contents listing only; the rules of ti ringa are not taken from it.
 
@@ -412,7 +412,7 @@ claims:
     status: supported
     sources: [toi2015_saaboothree]
     pages:
-      - path: 05-regional-comparisons.md
+      - path: notes/05-regional-comparisons.md
         anchor: does not support an ancient origin
 
   - id: claim.india.rps_origin
@@ -422,5 +422,5 @@ claims:
     status: unsupported
     sources: [saaboothree_descriptions, toi2015_saaboothree]
     pages:
-      - path: 05-regional-comparisons.md
+      - path: notes/05-regional-comparisons.md
         anchor: that RPS originated in India
