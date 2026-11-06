@@ -7,7 +7,9 @@ What this checks (structure only):
   - every claim's sources exist, and every source is used by some claim
   - a hypothesis is never 'supported'
   - an absence claim records what was 'searched'
-  - a 'supported' claim has at least one source read at catalogue_record or deeper
+  - a 'supported' claim has at least one source read at catalogue_record or
+    deeper AND re-located by a second person (relocated: true)
+  - every source says whether it has been re-located
   - every page a claim names exists, and its anchor phrase is on that page
     (whitespace and case ignored, nothing else)
   - every claim ID mentioned in a markdown file exists
@@ -73,6 +75,8 @@ def check(root):
         source_by_key[key] = s
         if s.get("access") not in ACCESS:
             errors.append(f"{where}: access {s.get('access')!r} not in {ACCESS}")
+        if not isinstance(s.get("relocated"), bool):
+            errors.append(f"{where}: relocated must be true or false")
 
     used = set()
     seen_ids = set()
@@ -107,11 +111,13 @@ def check(root):
                           "re-layer it and say why")
         if layer == "absence" and not str(c.get("searched") or "").strip():
             errors.append(f"{where}: an absence claim must record what was searched")
+        # r1/R1-12: a source read once and never found again cannot carry 'supported'.
         read_deep_enough = any(
-            source_by_key.get(k, {}).get("access") in SUPPORTING_ACCESS for k in keys)
+            source_by_key.get(k, {}).get("access") in SUPPORTING_ACCESS
+            and source_by_key.get(k, {}).get("relocated") is True for k in keys)
         if status == "supported" and not read_deep_enough:
             errors.append(f"{where}: 'supported' needs a source at "
-                          f"{sorted(SUPPORTING_ACCESS)}")
+                          f"{sorted(SUPPORTING_ACCESS)} with relocated: true")
 
         pages = c.get("pages") or []
         if not pages:
@@ -152,8 +158,10 @@ def check(root):
     print(f"read: evidence/claims.yml, evidence/sources.yml, {len(read)} markdown files")
     print(f"{len(claims)} claims, {len(sources)} sources")
     print("access: " + ", ".join(f"{a} {n}" for a, n in by_access.items()))
+    relocated = sum(1 for s in sources if s.get("relocated") is True)
     print(f"not yet re-findable (OF-1): {no_url} sources without url, "
-          f"{no_archive} without archived snapshot")
+          f"{no_archive} without archived snapshot, "
+          f"{len(sources) - relocated} never re-located")
     for e in errors:
         print("ERROR " + e)
     print("FAILED" if errors else "all checked")

@@ -9,42 +9,63 @@
 #   not_located        cited by description only; nobody has identified the exact item
 #
 # by / when: who reached that level, and when. "ai_assisted_search, before
-# 2026-11-06" means the single compilation pass, not an independent re-check
-# (OF-2).
+# 2026-11-06" is the single compilation pass. "review r1" is the independent
+# reviewer of reviews/review-r1.md, which had the URL in hand.
+#
+# relocated: whether a second person found the source again from what is
+# recorded here. false means the access level rests on the first pass alone,
+# and the claims built on it are held at 'unverified' or 'partly_supported'.
 #
 # url, archived, accessed, locator: what someone else needs to re-find the
 # passage. null means not recorded (OF-1), never "not applicable".
 
-version: 0.1
+version: 0.2
 
 sources:
   - key: xie_wuzazu
-    title: 五雜組 (Wuzazu)
+    title: 五雜組 (Wuzazu), 卷六 人部二
     author: 謝肇淛 (Xie Zhaozhe)
-    date: Ming dynasty
+    date: Ming dynasty, c. 1600
     language: zh
     access: primary_inspected
-    by: ai_assisted_search
-    when: before 2026-11-06
-    url: null
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://zh.wikisource.org/wiki/五雜俎/卷06
     archived: null
-    accessed: null
-    locator: null
-    notes: Passage on 手勢令. Edition and juan not recorded.
+    accessed: 2026-11-06
+    locator: juan 6 (人部二), passage on 手勢令
+    notes: Wikisource text. The passage names Shi Hongzhao (d. 950), placing the episode in the Five Dynasties Later Han.
 
-  - key: ndl_crd_janken
-    title: Collaborative reference database entry on the origin of janken
-    author: National Diet Library (Japan), collaborative reference database
-    date: null
+  - key: ndl_crd_yokohama2750
+    title: レファレンス協同データベース, じゃんけんの起源 (answer by 横浜市中央図書館, 管理番号 横浜市中央2750)
+    author: Yokohama Central Library, via the National Diet Library Collaborative Reference Database
+    date: registered 2025-02-06
+    language: ja
+    access: primary_inspected
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://crd.ndl.go.jp/reference/entry/index.php?id=1000362787&page=ref_view
+    archived: null
+    accessed: 2026-11-06
+    locator: answer text, citing Kako 2008 pp. 11, 40–45
+    notes: Relays the 1804–1843 estimate; the library does not make it. The 1804–1843 wording was also seen by the author on 2026-11-06.
+
+  - key: kako2008
+    title: 伝承遊び考 4
+    author: 加古里子 (Kako Satoshi)
+    date: 2008-07
     language: ja
     access: secondary_report
-    by: ai_assisted_search
-    when: before 2026-11-06
+    by: review r1
+    when: 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
-    locator: null
-    notes: Source of the 1804–1843 estimate.
+    locator: pp. 11, 40–45 (as cited by the CRD answer)
+    notes: Publisher 小峰書店 per the CRD answer. The book itself has not been read.
 
   - key: japanese_ken_references
     title: Japanese historical references on ken games (mushi-ken etc.)
@@ -54,53 +75,72 @@ sources:
     access: not_located
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: Described collectively in the notes; no specific item named.
+    notes: Described collectively in the notes; no specific item named. Culin 1895 independently describes mushi-ken.
 
   - key: culin1895
     title: Korean Games, with Notes on the Corresponding Games of China and Japan
     author: Stewart Culin
     date: 1895
     language: en
-    access: secondary_report
-    by: ai_assisted_search
-    when: before 2026-11-06
-    url: null
+    access: primary_inspected
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://archive.org/details/koreangameswith01culigoog
     archived: null
-    accessed: null
-    locator: null
-    notes: Read via its reproduction in Japanese scholarship, not the 1895 book itself.
+    accessed: 2026-11-06
+    locator: pp. 44–45, § XXXVII (Ishi Ken / Janken; Mushi Ken)
+    notes: Philadelphia, University of Pennsylvania. The author also confirmed the index entry "Janken, 44, 45" in the full text on 2026-11-06.
 
-  - key: buescher_rochambeau
-    title: Investigation of "Rochambeau" in American recreation literature
-    author: John B. Buescher
+  - key: gardner_handbook
+    title: Handbook for Recreation Leaders (Children's Bureau Publication No. 231)
+    author: Ella Gardner
+    date: imprint 1936; transmittal letter 1935-12-04
+    language: en
+    access: primary_inspected
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://fraser.stlouisfed.org/title/handbook-recreation-leaders-8506
+    archived: null
+    accessed: 2026-11-06
+    locator: p. 50, "Rochambeau"
+    notes: A team game for two lines of players whose captains choose. FRASER (Federal Reserve Bank of St. Louis) digitisation.
+
+  - key: teachinghistory_rps
+    title: "Ask a Historian: Rock Paper Scissors"
+    author: unsigned (teachinghistory.org, RRCHNM, George Mason University)
     date: null
     language: en
-    access: secondary_report
-    by: ai_assisted_search
-    when: before 2026-11-06
-    url: null
+    access: primary_inspected
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://teachinghistory.org/history-content/ask-a-historian/23932
     archived: null
-    accessed: null
+    accessed: 2026-11-06
     locator: null
-    notes: The 1935 recreation handbook itself was not seen.
+    notes: The notes first credited this to John B. Buescher. No source seen attributes it to him (r1/R1-8).
 
   - key: thai_junior_encyclopedia_v13
     title: สารานุกรมไทยสำหรับเยาวชน เล่ม 13, การละเล่นของเด็ก
     author: โครงการสารานุกรมไทยสำหรับเยาวชน
-    date: 2532 BE / 1989 (catalogue)
+    date: 2532 BE / 1989 (catalogue, record not recorded)
     language: th
     access: indexed_text
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: Online transcription read; 1989 date from a university library catalogue. Printed pages not inspected.
+    notes: Online transcription read in the first pass. saranukromthai.or.th has been restructured and its old book.php URLs return 404 (r1/R1-12).
 
   - key: tce_central_games
     title: สารานุกรมวัฒนธรรมไทย, การเล่นพื้นบ้านในภาคกลาง
@@ -110,11 +150,12 @@ sources:
     access: indexed_text
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: null
+    notes: Not checked in review r1.
 
   - key: dekd_2008
     title: Dek-D article on the origin of เป่ายิ้งฉุบ, with reader comments
@@ -124,11 +165,12 @@ sources:
     access: primary_inspected
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: Commenters are not named in this repository.
+    notes: Not re-located in review r1. Commenters are not named in this repository.
 
   - key: thai_etymology_article
     title: Recent article deriving เป่ายิ้งฉุบ from Chinese words
@@ -138,6 +180,7 @@ sources:
     access: not_located
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
@@ -152,11 +195,12 @@ sources:
     access: primary_inspected
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: null
+    notes: Review r1 searched PRPM (prpm.dbp.gov.my/Cari1) for osom, ohsom, oh som, wan tu som and batu air burung with no advisory result.
 
   - key: malaysian_artist_osom
     title: Malaysian artist's statement recalling OSOM with burung, batu, air
@@ -166,6 +210,7 @@ sources:
     access: not_located
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
@@ -180,6 +225,7 @@ sources:
     access: not_located
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
@@ -194,11 +240,12 @@ sources:
     access: not_located
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: Not identified in the notes.
+    notes: Never identified. The one Singapore source found (nor_afidah2014) describes a different game (r1/R1-4).
 
   - key: thungsong_chuchi
     title: Account of Thai children's games describing ฉู่ฉี้
@@ -208,11 +255,12 @@ sources:
     access: indexed_text
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: null
+    notes: Not checked in review r1.
 
   - key: thesis_chuchi
     title: University thesis repeating the ฉู่ฉี้ description
@@ -222,6 +270,7 @@ sources:
     access: not_located
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
@@ -236,6 +285,7 @@ sources:
     access: secondary_report
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
@@ -250,6 +300,7 @@ sources:
     access: user_screenshot
     by: repository owner
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
@@ -257,18 +308,19 @@ sources:
     notes: Screenshots held by the owner, deliberately not published. Commenters are not named.
 
   - key: phuket_dictionary
-    title: พจนานุกรมภาษาถิ่นภูเก็ต พุทธศักราช 2560
+    title: พจนานุกรมภาษาถิ่นภูเก็ต พุทธศักราช ๒๕๖๐ ที่ระลึกครบ ๙ รอบ ๑๐๘ ปี สตรีภูเก็ต
     author: อนันต์ อารีย์พงศ์ (ed.); โรงเรียนสตรีภูเก็ต
-    date: catalogued 2559 BE / 2016
+    date: 2559 BE / 2016 (catalogued)
     language: th
     access: catalogue_record
-    by: ai_assisted_search
-    when: before 2026-11-06
-    url: null
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://ndlsearch.ndl.go.jp/books/R100000002-I028323271
     archived: null
-    accessed: null
-    locator: null
-    notes: NDL (Japan) catalogue and a Silpakorn University bibliography. The วันตูโส้ม entry not seen.
+    accessed: 2026-11-06
+    locator: NDL Search R100000002-I028323271; ISBN 9786163956347; LC control no. 2017341583; 486 pp.
+    notes: The วันตูโส้ม entry itself not seen.
 
   - key: tce_phuket_hokkien
     title: สารานุกรมวัฒนธรรมไทย, entry on Phuket Hokkien vocabulary
@@ -278,25 +330,27 @@ sources:
     access: indexed_text
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: null
+    notes: Not checked in review r1.
 
   - key: hervey1903
     title: Malay Games
     author: D. F. A. Hervey
     date: 1903
     language: en
-    access: catalogue_record
-    by: ai_assisted_search
-    when: before 2026-11-06
-    url: null
+    access: primary_inspected
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://wellcomecollection.org/works/weqtqs57
     archived: null
-    accessed: null
-    locator: Journal of the Anthropological Institute of Great Britain and Ireland 33, 284–304
-    notes: Wellcome Collection record. Full text not read.
+    accessed: 2026-11-06
+    locator: Journal of the Anthropological Institute of Great Britain and Ireland 33, 284–304; offprint PDF https://iiif.wellcomecollection.org/pdf/b30208993
+    notes: Read in full by review r1. No osom-type game; turn-deciding by tawak buta (p. 288), shell tossing (p. 292), palm-rib lots (p. 298).
 
   - key: wilkinson1925
     title: "Life and Customs: Malay Amusements (Papers on Malay Subjects, part III)"
@@ -306,6 +360,7 @@ sources:
     access: catalogue_record
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
@@ -317,14 +372,15 @@ sources:
     author: ASEAN Committee on Culture and Information
     date: 2009
     language: en
-    access: indexed_text
-    by: ai_assisted_search
-    when: before 2026-11-06
-    url: null
-    archived: null
-    accessed: null
-    locator: null
-    notes: Hosted PDF returned an error; indexed text and ASEAN Secretariat catalogue record only.
+    access: primary_inspected
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://dispar.ciamiskab.go.id/wp-content/uploads/2023/08/Compilation-od-Tradional-Asean-Childrens-Songs-Dances-Games-and-Story-Telling.pdf
+    archived: http://web.archive.org/web/20250520185553/https://dispar.ciamiskab.go.id/wp-content/uploads/2023/08/Compilation-od-Tradional-Asean-Childrens-Songs-Dances-Games-and-Story-Telling.pdf
+    accessed: 2026-11-06
+    locator: Malaysia section; games list p. 85; Lai Lai Li Tham Plom p. 86; One Two Som pp. 86–87
+    notes: The live URL now returns "page not found"; use the archive. Do not link the ASEAN Resource Centre record (ID 1145), which now serves unrelated spam.
 
   - key: kamaruddin2013
     title: The Games We Played
@@ -334,25 +390,27 @@ sources:
     access: primary_inspected
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: Retrospective account of 1954–1961.
+    notes: Retrospective account of 1954–1961. Not re-located in review r1 (r1/R1-6).
 
   - key: nor_afidah2014
-    title: Kampong Living A–Z
+    title: "Kampung Living: A–Z"
     author: Nor Afidah Abd Rahman
-    date: 2014
+    date: 2014-01-01
     language: en
     access: primary_inspected
-    by: ai_assisted_search
-    when: before 2026-11-06
-    url: null
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://biblioasia.nlb.gov.sg/all-sections/vol-9-issue-4-jan-march-2014-kampung-living-singapore/
     archived: null
-    accessed: null
-    locator: BiblioAsia 9(4), January–March 2014, National Library Board Singapore
-    notes: null
+    accessed: 2026-11-06
+    locator: BiblioAsia 9(4), January–March 2014; entry "OH BEY SOM!"
+    notes: National Library Board Singapore. No bird–stone–water game.
 
   - key: tgr_suit
     title: Traditional Games Returns, entry on suit / suten
@@ -362,39 +420,42 @@ sources:
     access: primary_inspected
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: null
+    notes: Not re-located in review r1 (r1/R1-16).
 
   - key: oktaviani_kinasih_suten
     title: "Suten Games: Exploration of Empirical and Theoretical Probability for Junior High School Mathematics Learning"
     author: Dewi Oktaviani; Dewi Kinasih
-    date: null
+    date: 2023
     language: en
     access: primary_inspected
-    by: ai_assisted_search
-    when: before 2026-11-06
+    by: review r1
+    when: 2026-11-06
+    relocated: true
     url: https://doi.org/10.21831/ej.v4i1.59575
     archived: null
-    accessed: null
-    locator: Ethnomathematics Journal 4(1)
-    notes: DOI not yet re-resolved by a second person.
+    accessed: 2026-11-06
+    locator: Ethnomathematics Journal 4(1), 19–35
+    notes: DOI resolved via Crossref by review r1.
 
-  - key: ogawa1982
+  - key: ogawa_jankenpo
     title: "Jan Ken Po: The World of Hawaii's Japanese Americans"
     author: Dennis M. Ogawa
-    date: 1982 (paperback, as listed)
+    date: c1973; 2nd ed. 1978
     language: en
     access: catalogue_record
-    by: ai_assisted_search
-    when: before 2026-11-06
-    url: null
+    by: review r1
+    when: 2026-11-06
+    relocated: true
+    url: https://ci.nii.ac.jp/ncid/BA10433802
     archived: null
-    accessed: null
-    locator: null
-    notes: University of Hawaiʻi Press listing.
+    accessed: 2026-11-06
+    locator: CiNii NCID BA10433802; ISBN 0824803981; LCCN 78009513
+    notes: University Press of Hawaii. The 1982 date is a later publisher listing. The author confirmed "1978, c1973" on CiNii on 2026-11-06.
 
   - key: nz_moe_takaro
     title: Ministry of Education (NZ) material on tākaro ā-ringa
@@ -404,11 +465,12 @@ sources:
     access: primary_inspected
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: null
+    notes: Not checked in review r1.
 
   - key: best1925
     title: Games and Pastimes of the Maori
@@ -418,6 +480,7 @@ sources:
     access: catalogue_record
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
@@ -432,6 +495,7 @@ sources:
     access: not_located
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
@@ -446,8 +510,9 @@ sources:
     access: primary_inspected
     by: ai_assisted_search
     when: before 2026-11-06
+    relocated: false
     url: null
     archived: null
     accessed: null
     locator: null
-    notes: About a television game show; cited by Wikipedia for the traditional game.
+    notes: About a television game show; cited by Wikipedia for the traditional game. Not checked in review r1.

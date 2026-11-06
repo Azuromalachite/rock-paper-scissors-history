@@ -7,19 +7,22 @@
 #   layer       documented | recollection | testimony | interpretation
 #               | hypothesis | absence
 #   status      supported | partly_supported | unverified | unsupported | open
+#               'supported' needs a source read at catalogue_record or deeper
+#               AND re-located by a second person (relocated: true).
 #   sources     keys in sources.yml
 #   searched    absence claims only: what was searched
 #   pages       where the claim is stated, each with an anchor phrase that
 #               must appear on that page (whitespace and case ignored)
 #   notes       scope, caveats, what IS established when the claim is not
 
-version: 0.1
+version: 0.2
 
 claims:
   # --- global chronology -------------------------------------------------
   - id: claim.china.wuzazu_not_rps
     statement: >
-      The 手勢令 passage in Xie Zhaozhe's Wuzazu names hand and finger
+      The 手勢令 passage in Xie Zhaozhe's Wuzazu (juan 6) is set at a Five
+      Dynasties Later Han banquet (947–950), names hand and finger
       representations, says its method of play was unknown to the author, and
       does not describe rock–paper–scissors.
     layer: documented
@@ -38,108 +41,114 @@ claims:
     pages:
       - path: notes/01-global-chronology.md
         anchor: should not be repeated as a demonstrated fact
-    notes: The passage usually cited for it does not support it.
+    notes: The passage usually cited for it is set in the tenth-century Later Han, not the Han dynasty.
 
   - id: claim.japan.ken_symbols_varied
     statement: >
       Earlier Japanese cyclic ken games used other symbols, e.g. mushi-ken's
       frog, slug and snake.
     layer: documented
-    status: unverified
-    sources: [japanese_ken_references]
+    status: supported
+    sources: [culin1895, japanese_ken_references]
     pages:
       - path: notes/01-global-chronology.md
         anchor: used frog, slug and snake
+    notes: Culin 1895 pp. 44–45 describes mushi-ken. That it is "earlier" than janken rests on the unlocated Japanese references.
 
   - id: claim.japan.emergence_1804_1843
     statement: >
-      A Japanese library research guide estimates that rock–paper–scissors
-      emerged in Japan during 1804–1843.
+      Kako Satoshi (2008) estimates that 石拳 developed from 虫拳 between Bunka
+      and Tenpō (1804–1843), while saying the date and process are unknown.
     layer: documented
-    status: partly_supported
-    sources: [ndl_crd_janken]
+    status: supported
+    sources: [ndl_crd_yokohama2750, kako2008]
     pages:
       - path: notes/01-global-chronology.md
-        anchor: estimates emergence during 1804–1843
-    notes: The estimate is the guide's own, with acknowledged uncertainty.
+        anchor: It is an estimate, not a dated record.
+    notes: >
+      Supported as "this estimate exists", via the CRD relay. Not support for
+      the game existing in 1804–1843 (r1/R1-3).
 
   - id: claim.japan.culin_1895
     statement: >
-      Culin (1895) describes Japanese ishi-ken / janken played with stone,
-      paper and scissors.
+      Culin (1895), pp. 44–45, describes Japanese ishi-ken / janken played with
+      stone, paper and scissors.
     layer: documented
-    status: partly_supported
+    status: supported
     sources: [culin1895]
     pages:
       - path: notes/01-global-chronology.md
-        anchor: A firm documentary anchor.
-    notes: >
-      The prose calls this firm, but the book itself has not been read: only
-      its reproduction in Japanese scholarship (OF-3).
+        anchor: A firm documentary anchor
+    notes: Closed OF-3. Read by review r1; index entry confirmed by the author.
 
   - id: claim.us.rochambeau_1935
     statement: >
-      A 1935 United States recreation handbook describes the game as
-      "Rochambeau".
+      Gardner's Handbook for Recreation Leaders (Children's Bureau Pub. 231;
+      transmittal December 1935, imprint 1936), p. 50, describes "Rochambeau"
+      as a team game in which captains choose rock, scissors or paper.
     layer: documented
-    status: partly_supported
-    sources: [buescher_rochambeau]
+    status: supported
+    sources: [gardner_handbook, teachinghistory_rps]
     pages:
       - path: notes/01-global-chronology.md
-        anchor: describes it as "Rochambeau"
+        anchor: describes "Rochambeau" as a **team** game
+    notes: The id keeps "1935" because ids are never renamed; the imprint is 1936.
 
   # --- Thailand ----------------------------------------------------------
   - id: claim.thai.first_record_not_found
     statement: >
-      No first occurrence, first introduction, or securely dated pre-1939
-      Siamese record of the game was found.
+      No first occurrence or first introduction of the game in Thailand/Siam
+      was found; the earliest dated Thai description cited is from 1989.
     layer: absence
     status: open
     sources: [thai_junior_encyclopedia_v13, tce_central_games, dekd_2008]
     searched: >
       One AI-assisted search pass in Thai, English, Japanese, Chinese and
       Malay web material. Exact queries and collections were not recorded.
-      Prewar newspapers, school manuals, children's magazines and historical
-      dictionaries were not searched (see notes/06-open-questions.md).
+      Thai newspapers, school manuals, children's magazines and historical
+      dictionaries before 1989 were not searched (see notes/06-open-questions.md).
     pages:
       - path: notes/02-thailand.md
-        anchor: No first occurrence, first introduction or securely dated pre-1939
+        anchor: No first occurrence or first introduction was found.
       - path: README.md
-        anchor: No securely dated pre-1939 Siamese record was found.
+        anchor: Nothing earlier was found.
+    notes: The pre-1939 framing was dropped; nothing between 1939 and 1989 is cited (r1/R1-1).
 
   - id: claim.thai.junior_encyclopedia_1989
     statement: >
       The Thai Junior Encyclopedia vol. 13 (catalogued 2532 BE / 1989)
       describes เป้ายิงฉุบ with hammer, scissors and paper.
     layer: documented
-    status: supported
+    status: unverified
     sources: [thai_junior_encyclopedia_v13]
     pages:
       - path: notes/02-thailand.md
         anchor: catalogued as 2532 BE / 1989
-    notes: Supported for the online text; linking it to the printed 1989 pages is still to do.
+    notes: Read once online; the site has since been restructured and neither the text nor the catalogue record could be re-located (r1/R1-12).
 
   - id: claim.thai.central_chant
     statement: >
       The Thailand Cultural Encyclopedia records ยันยีหรือเป่ายิงฉุบ and the
       chant "ยันยีเยา ปักเป้ายิ้งฉุบ" among central Thai games.
     layer: documented
-    status: supported
+    status: partly_supported
     sources: [tce_central_games]
     pages:
       - path: notes/02-thailand.md
         anchor: ยันยีเยา ปักเป้ายิ้งฉุบ
+    notes: Not yet re-located; no edition or page recorded.
 
   - id: claim.thai.wwii_hypothesis_circulating_2008
     statement: >
       The hypothesis that Thailand got the game from Japan during World War II
       was in circulation by 26 June 2008.
     layer: documented
-    status: supported
+    status: partly_supported
     sources: [dekd_2008]
     pages:
       - path: notes/02-thailand.md
         anchor: A Japanese/WWII introduction hypothesis was circulating by then
+    notes: The 2008 article has not been re-located (r1/R1-12).
 
   - id: claim.thai.wwii_introduction
     statement: >
@@ -169,27 +178,30 @@ claims:
   # --- southern Thailand -------------------------------------------------
   - id: claim.south.dekd_2008_variants
     statement: >
-      In June 2008, commenters named Songkhla and Hat Yai for bird–stone–water,
-      Trang and Mueang Nakhon Si Thammarat for bird–gun–water, and Mueang
-      Surat Thani for scissors–hammer–paper.
+      In June 2008, commenters named Songkhla and Hat Yai for bird–stone–water
+      (Hat Yai with the chant วัน ทู ส้ม), Trang and Mueang Nakhon Si Thammarat
+      for bird–gun–water, and Mueang Surat Thani for scissors–hammer–paper.
     layer: testimony
-    status: supported
+    status: partly_supported
     sources: [dekd_2008]
     pages:
       - path: notes/03-southern-thailand.md
         anchor: recognised by 2008
-    notes: Informal comments, not a survey. Supports "reported", not "the practice of the province".
+    notes: >
+      Informal comments, not a survey. The thread has not been re-located,
+      and the Hat Yai chant rests on a single comment (r1/R1-2).
 
   - id: claim.malaysia.osom_bird_stone_water
     statement: >
       A 2018 enquiry to Dewan Bahasa dan Pustaka describes ohsom / osom /
       wan tu som as a hand game using stone, water and bird.
     layer: documented
-    status: supported
+    status: unverified
     sources: [dbp_2018_osom]
     pages:
       - path: notes/03-southern-thailand.md
-        anchor: This establishes contemporary usage, not etymology.
+        anchor: establishes contemporary usage, not etymology.
+    notes: Not re-located in DBP's PRPM search (r1/R1-5).
 
   - id: claim.malaysia.osom_recollection_artist
     statement: >
@@ -206,28 +218,32 @@ claims:
       The bird–water–stone cycle is recorded in Singaporean schoolyard
       folklore.
     layer: documented
-    status: unverified
-    sources: [singapore_schoolyard_folklore]
+    status: unsupported
+    sources: [singapore_schoolyard_folklore, nor_afidah2014]
     pages:
       - path: notes/03-southern-thailand.md
-        anchor: recorded in Singaporean schoolyard folklore
+        anchor: No Singapore source for bird–stone–water was found.
+    notes: >
+      Never sourced. The one Singapore source found describes palm-up /
+      palm-down oh bey som instead (r1/R1-4). Withdrawn from the prose.
 
   - id: claim.south.peninsular_connection
     statement: >
-      The match in both chant (วัน ทู ส้ม / one two som) and symbols between
-      Hat Yai and Malaysia makes transmission or shared inheritance the best
-      explanation of southern bird–stone–water.
+      The symbol match between southern Thai bird–stone–water and the
+      documented Malaysian One Two Som makes transmission or shared inheritance
+      the best explanation of the southern variant.
     layer: interpretation
     status: partly_supported
-    sources: [dekd_2008, dbp_2018_osom]
+    sources: [asean2009_compilation, dekd_2008, dbp_2018_osom]
     pages:
       - path: notes/03-southern-thailand.md
         anchor: makes transmission or shared inheritance persuasive
       - path: README.md
         anchor: The strongest explanation is a shared peninsular tradition
     notes: >
-      Supports a connection only. Route, direction and carriers are unknown;
-      the evidence is post-2008 and recollection.
+      Supports a connection only. Route, direction and carriers are unknown.
+      The matching-chant half rests on one 2008 comment not re-located
+      (r1/R1-2).
 
   - id: claim.south.chuchi_symbols
     statement: >
@@ -261,9 +277,11 @@ claims:
     pages:
       - path: notes/03-southern-thailand.md
         anchor: "| Phuket | glass–stone–water |"
+      - path: README.md
+        anchor: not independently checkable
     notes: >
       One post and its comments, held only as private screenshots. Nobody
-      else can re-check it from this repository.
+      else can re-check it from this repository (r1/R1-11, OF-4).
 
   - id: claim.phuket.dictionary_exists
     statement: >
@@ -293,49 +311,78 @@ claims:
       Hokkien-speaking migrants brought Malay and English vocabulary into
       Phuket, often after living in Malaya.
     layer: documented
-    status: supported
+    status: partly_supported
     sources: [tce_phuket_hokkien]
     pages:
       - path: notes/03-southern-thailand.md
         anchor: Hokkien-speaking migrants
-    notes: Makes a route plausible for the game; does not show the game used it.
+    notes: Not yet re-located. Makes a route plausible for the game; does not show the game used it.
+
+  - id: claim.malaysia.lai_lai_li_tham_plom
+    statement: >
+      The 2009 ASEAN compilation (Malaysia section, p. 86) documents Lai Lai Li
+      Tham Plom, a palm / back-of-hand rhyme for picking the odd one out.
+    layer: documented
+    status: supported
+    sources: [asean2009_compilation]
+    pages:
+      - path: notes/03-southern-thailand.md
+        anchor: Lai Lai Li Tham Plom
+      - path: notes/04-malay-peninsula.md
+        anchor: Lai Lai Li Tham Plom
+    notes: Dates the name and practice in Malaysia; does not show that โอน้อยออก derives from it (r1/R1-14).
 
   # --- Malay peninsula ---------------------------------------------------
+  - id: claim.malay.hervey_no_osom
+    statement: >
+      Hervey's "Malay Games" (1903), pp. 284–304, contains no osom-type hand
+      game.
+    layer: absence
+    status: supported
+    sources: [hervey1903]
+    searched: All of pp. 284–304, read page by page by review r1 on 2026-11-06.
+    pages:
+      - path: notes/04-malay-peninsula.md
+        anchor: no *osom*-type game
+    notes: Absence from one mostly-Malacca collection is weak evidence about Malaya in 1903 (r1/R1-9).
+
   - id: claim.malay.early_ethnography_unchecked
     statement: >
-      Whether Hervey (1903) or Wilkinson (1925) describe an osom-type game is
-      not known.
+      Whether Wilkinson (1925) describes an osom-type game is not known.
     layer: absence
     status: open
-    sources: [hervey1903, wilkinson1925]
-    searched: Catalogue and database records only. Neither full text has been read.
+    sources: [wilkinson1925]
+    searched: Catalogue and database records only. The full text has not been read.
     pages:
       - path: notes/04-malay-peninsula.md
         anchor: was documented in 1903 or 1925
 
   - id: claim.asean.one_two_som_2009
     statement: >
-      The 2009 ASEAN compilation describes "One Two Som" / "One Two Juz" with
-      bird, water and stone (bird beats water, stone beats bird).
+      The 2009 ASEAN compilation (Malaysia section, pp. 86–87) describes "One
+      Two Som" / "One Two Juz" with bird, water and stone: bird beats water,
+      stone beats bird, water beats stone; ties are replayed.
     layer: documented
-    status: partly_supported
+    status: supported
     sources: [asean2009_compilation]
     pages:
       - path: notes/04-malay-peninsula.md
         anchor: '"One Two Som" or "One Two Juz"'
-    notes: Indexed text only; the hosted PDF returned an error.
+      - path: notes/04-malay-peninsula.md
+        anchor: water beats stone (the stone sinks)
+    notes: Read from the 2025-05-20 Internet Archive capture (r1/R1-7).
 
   - id: claim.malay.kamaruddin_1954_1961
     statement: >
       Kamaruddin Abdullah (2013) recalls playing osom (bird, water, stone)
       and opek during 1954–1961.
     layer: recollection
-    status: supported
+    status: unverified
     sources: [kamaruddin2013]
     pages:
       - path: notes/04-malay-peninsula.md
         anchor: recollections around 1954–1961
-    notes: Supported as a recollection written in 2013, not as a 1950s document.
+    notes: Read once, never re-located; no URL or venue recorded (r1/R1-6).
 
   - id: claim.singapore.oh_bey_som
     statement: >
@@ -353,7 +400,7 @@ claims:
       The game travelled China → Malaya → southern Thailand.
     layer: hypothesis
     status: unsupported
-    sources: [dbp_2018_osom, kamaruddin2013, dekd_2008]
+    sources: [asean2009_compilation, kamaruddin2013, dekd_2008]
     pages:
       - path: notes/04-malay-peninsula.md
         anchor: family tree remains a hypothesis
@@ -365,55 +412,59 @@ claims:
       little finger = ant, with elephant > human > ant > elephant.
     layer: documented
     status: supported
-    sources: [tgr_suit, oktaviani_kinasih_suten]
+    sources: [oktaviani_kinasih_suten, tgr_suit]
     pages:
       - path: notes/05-regional-comparisons.md
         anchor: "| thumb | elephant (*gajah*) | human |"
+    notes: Rules confirmed in Oktaviani and Kinasih (2023) by review r1. The suit Jepang distinction rests on tgr_suit, not re-located.
 
   - id: claim.hawaii.ogawa_chant
     statement: >
-      Ogawa's Jan Ken Po presents the game as brought from Japan and
-      localised in Hawaiʻi, with a localised chant.
+      Ogawa's Jan Ken Po (c1973; 2nd ed. 1978) is presented by its publisher
+      as showing the game brought from Japan and localised in Hawaiʻi, with a
+      localised chant.
     layer: documented
     status: supported
-    sources: [ogawa1982]
+    sources: [ogawa_jankenpo]
     pages:
       - path: notes/05-regional-comparisons.md
         anchor: Junk An'a Po, I Canna Show
-    notes: From the publisher's description, not the book's text.
+    notes: Catalogue and publisher description only, not the book's text (r1/R1-10).
 
   - id: claim.nz.hei_tama_matching
     statement: >
       Hei tama tū tama is a matching game, not a three-way dominance cycle.
     layer: documented
-    status: supported
+    status: partly_supported
     sources: [nz_moe_takaro]
     pages:
       - path: notes/05-regional-comparisons.md
         anchor: It is a **matching** game
+    notes: Not yet re-located.
 
   - id: claim.nz.best1925_ti_ringa
     statement: >
       Best's Games and Pastimes of the Maori (1925) has a section titled
       "The game of ti ringa".
     layer: documented
-    status: supported
+    status: partly_supported
     sources: [best1925]
     pages:
       - path: notes/05-regional-comparisons.md
         anchor: contents verified, chapter not examined
-    notes: Contents listing only; the rules of ti ringa are not taken from it.
+    notes: Contents listing only, not yet re-located; the rules of ti ringa are not taken from it.
 
   - id: claim.india.toi2015_not_support
     statement: >
       The 2015 Times of India article cited for saa boo three concerns a
       television game show and does not support an ancient origin.
     layer: documented
-    status: supported
+    status: partly_supported
     sources: [toi2015_saaboothree]
     pages:
       - path: notes/05-regional-comparisons.md
         anchor: does not support an ancient origin
+    notes: Not yet re-located.
 
   - id: claim.india.rps_origin
     statement: >

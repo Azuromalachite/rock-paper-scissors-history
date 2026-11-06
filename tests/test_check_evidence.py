@@ -52,10 +52,20 @@ CASES = {
         "an absence claim must record what was searched",
         'if layer == "absence" and not str(c.get("searched") or "").strip():'),
     "supported on secondary report only": (
-        C, "status: partly_supported\n    sources: [culin1895]",
-        "status: supported\n    sources: [culin1895]",
+        C, "status: unverified\n    sources: [book_108_songkhamtham]",
+        "status: supported\n    sources: [book_108_songkhamtham]",
         "'supported' needs a source at",
         'if status == "supported" and not read_deep_enough:'),
+    # r1/R1-12: read once, never found again.
+    "supported on a source never re-located": (
+        C, "status: partly_supported\n    sources: [tce_central_games]",
+        "status: supported\n    sources: [tce_central_games]",
+        "with relocated: true",
+        'if status == "supported" and not read_deep_enough:'),
+    "relocated not a boolean": (
+        S, "relocated: false", "relocated: maybe",
+        "relocated must be true or false",
+        'if not isinstance(s.get("relocated"), bool):'),
     "anchor edited away from page": (
         "notes/01-global-chronology.md", "It does not describe modern rock–paper–scissors.",
         "It does not describe the game.",

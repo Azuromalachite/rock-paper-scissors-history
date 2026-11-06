@@ -9,18 +9,23 @@ around two questions:
 
 ## Short answers
 
-- **First Thai/Siamese occurrence: not identified.** No securely dated pre-1939
-  Siamese record was found. The often-repeated claim that Japan introduced the
-  game during World War II is an unsourced hypothesis, circulating by 2008, not
-  a documented finding.
+- **First Thai/Siamese occurrence: not identified.** The earliest dated Thai
+  description found is from 1989 (the Thai Junior Encyclopedia, date not yet
+  checked against print). Nothing earlier was found. The often-repeated claim
+  that Japan introduced the game during World War II is an unsourced
+  hypothesis, circulating by 2008, not a documented finding.
 - **The southern variants are real and locally distinct.** Reported versions:
   bird–stone–water (Hat Yai/Songkhla), bird–gun–water (Trang, Nakhon Si
-  Thammarat, Phatthalung), glass–stone–water (Phuket, Krabi), and the standard
-  scissors–hammer–paper (Mueang Surat Thani).
-- **The strongest explanation is a shared peninsular tradition** with Malaysia
-  and Singapore. Hat Yai's chant วัน ทู ส้ม matches Malaysian *one two
-  som/osom*, and the symbols match too. The route and direction of transmission
-  remain unknown.
+  Thammarat), and the standard scissors–hammer–paper (Mueang Surat Thani), from
+  dated 2008 online comments. Glass–stone–water (Phuket), cup/glass–stone–water
+  (Krabi) and bird–gun–water (Phatthalung) come from one Facebook post and its
+  comments, held privately as screenshots and not independently checkable.
+- **The strongest explanation is a shared peninsular tradition** with
+  Malaysia. A 2009 ASEAN compilation documents Malaysian *One Two Som* with
+  bird, water and stone, matching the southern Thai symbols. The Hat Yai chant
+  วัน ทู ส้ม, which would match the name too, rests on a single 2008 online
+  comment that has not been re-located. The route and direction of
+  transmission remain unknown.
 
 ## Contents
 

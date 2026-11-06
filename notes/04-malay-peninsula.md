@@ -9,27 +9,35 @@ southern Thailand.
 
 | source | what it offers | what has been verified |
 | --- | --- | --- |
-| D. F. A. Hervey, "Malay Games" (1903), *Journal of the Anthropological Institute of Great Britain and Ireland* 33: 284–304 | An early anthropological treatment of Malay games | Bibliographic record (Wellcome Collection). Not yet checked whether it includes this hand game. |
-| R. J. Wilkinson, *Life and Customs: Malay Amusements* (1925), part III | Games and amusements in relation to customs, beliefs and social change | Indexed in Yale's eHRAF World Cultures, coverage 1900–1925, including children's games |
+| D. F. A. Hervey, "Malay Games" (1903), *Journal of the Anthropological Institute of Great Britain and Ireland* 33: 284–304 | About sixty games, mostly from Malacca, some from Perak and Penang | Read in full (Wellcome Collection offprint b30208993, 2026-11-06): **no *osom*-type game**. Turns are decided by guessing which hand hides a seed (*tawak buta*, p. 288), tossing shells (p. 292) or drawing palm-rib lots (p. 298). |
+| R. J. Wilkinson, *Life and Customs: Malay Amusements* (1925), part III | Games and amusements in relation to customs, beliefs and social change | Indexed in Yale's eHRAF World Cultures, coverage 1900–1925, including children's games. Full text not read. |
 
 These establish that Malay play was studied over a century ago. They do **not**
-establish that *osom* was documented in 1903 or 1925.
+establish that *osom* was documented in 1903 or 1925. Hervey's silence is
+weak evidence: one collection, mostly from one place, does not show the game
+was unknown in Malaya in 1903.
 
 ## Formal regional documentation of "One Two Som"
 
 The ASEAN Committee on Culture and Information's *Compilation of Traditional
-ASEAN Children's Songs, Dances, Games and Story-Telling* (catalogued by the
-ASEAN Secretariat as 2009) describes:
+ASEAN Children's Songs, Dances, Games and Story-Telling* (2009), Malaysia
+section, printed pp. 86–87, describes, among "balloting" games for deciding
+who begins:
 
-- the names "One Two Som" or "One Two Juz";
-- simultaneous revelation of hand signs;
-- bird, water and stone;
-- bird beats water (drinks it); stone beats bird (kills it).
+- the names "One Two Som" or "One Two Juz" (glossed "One Two Three" in the
+  games list, p. 85);
+- two players chanting and showing hand signs at once;
+- bird (fingers closed together), water (open palm), stone (fist);
+- bird beats water (drinks it), stone beats bird (kills it), water beats
+  stone (the stone sinks); a tie is replayed.
 
-It appears alongside other turn-deciding procedures (numbered lots, drawing
-sticks), situating the game within how children organise play. The hosted PDF
-currently returns an error; this rests on its indexed text and the verified
-catalogue record.
+It appears alongside other turn-deciding procedures (numbered lots, short
+sticks), situating the game within how children organise play. The same page
+gives *Lai Lai Li Tham Plom*, a palm (white) / back-of-hand (black) rhyme for
+picking the odd one out.
+
+The original hosted PDF is gone. The text was read from an Internet Archive
+capture of 2025-05-20 (see `evidence/sources.yml`).
 
 ## A childhood account from the 1950s
 
@@ -46,14 +54,20 @@ these before hide-and-seek. This is retrospective testimony written in 2013,
 not a 1950s document, but it gives a remembered period, rules, gestures and
 social setting.
 
+**Unverified:** the account was read during the first search, but no URL or
+venue was recorded, and it could not be re-located on 2026-11-06 (r1/R1-6).
+Until it is, the 1954–1961 dating should not be quoted.
+
 ## Singapore: the palm-up/palm-down practice
 
-Nor Afidah Abd Rahman, "Kampong Living A–Z", *BiblioAsia* 9(4), Jan–Mar 2014
-(National Library, Singapore), describes *oh bey som* for forming teams or
+Nor Afidah Abd Rahman, "Kampung Living: A–Z", *BiblioAsia* 9(4), Jan–Mar 2014
+(National Library Board, Singapore), describes *oh bey som* for forming teams or
 choosing a catcher: players show palm-up or palm-down, and matching
-orientations form groups or single out an odd player.
+orientations form groups or single out an odd player. It does not mention a
+bird–stone–water game.
 
-This parallels Thai โอน้อยออก but does not prove a derivation. It also shows
+This parallels Thai โอน้อยออก and Malaysian *Lai Lai Li Tham Plom* (above), but
+does not prove a derivation. It also shows
 that similar "som" names refer to different hand procedures, so the history
 cannot be reconstructed from names alone.
 

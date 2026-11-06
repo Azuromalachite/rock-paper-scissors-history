@@ -1,16 +1,23 @@
 # 2. When did Thai or Siamese people first play it?
 
-**No first occurrence, first introduction or securely dated pre-1939 Siamese
-record was found.** That is a limit of the evidence found, not evidence that
-people in Siam did not play it.
+**No first occurrence or first introduction was found.** The earliest dated
+Thai description these notes cite is the Thai Junior Encyclopedia, vol. 13,
+catalogued as 2532 BE / 1989, and that date is not yet verified against the
+printed volume. No earlier dated Thai or Siamese record was found, before or
+after 1939. That is a limit of the evidence found, not evidence that people in
+Siam did not play it.
 
 ## Thai documentary anchors
 
+None of these three could be re-located as cited when they were reviewed on
+2026-11-06 (r1/R1-12). The encyclopedia's website has been restructured, and
+its old URLs no longer work.
+
 | evidence | what it establishes | what it cannot establish |
 | --- | --- | --- |
-| Thai Junior Encyclopedia (สารานุกรมไทยสำหรับเยาวชน), vol. 13, "การละเล่นของเด็ก"; catalogued as 2532 BE / 1989 | Its online text describes เป้ายิงฉุบ with hammer, scissors and paper and the familiar rules | The date of introduction. Inspecting the printed pages would strengthen the link between the online text and the 1989 edition. |
-| Thailand Cultural Encyclopedia (สารานุกรมวัฒนธรรมไทย), "การเล่นพื้นบ้านในภาคกลาง" | Records ยันยีหรือเป่ายิงฉุบ and the chant "ยันยีเยา ปักเป้ายิ้งฉุบ" | How old the chant is, or where it originated |
-| Dek-D article, 26 June 2008 | A Japanese/WWII introduction hypothesis was circulating by then | That the hypothesis is true |
+| Thai Junior Encyclopedia (สารานุกรมไทยสำหรับเยาวชน), vol. 13, "การละเล่นของเด็ก"; catalogued as 2532 BE / 1989 | Its online text, as read during the first search, describes เป้ายิงฉุบ with hammer, scissors and paper and the familiar rules | The date of introduction. The catalogue record and a page of the printed volume are still needed. |
+| Thailand Cultural Encyclopedia (สารานุกรมวัฒนธรรมไทย), "การเล่นพื้นบ้านในภาคกลาง" | Records ยันยีหรือเป่ายิงฉุบ and the chant "ยันยีเยา ปักเป้ายิ้งฉุบ" | How old the chant is, or where it originated. Edition and page are not recorded. |
+| Dek-D article, 26 June 2008 | A Japanese/WWII introduction hypothesis was circulating by then | That the hypothesis is true. The article has not been re-located. |
 
 ## The World War II hypothesis
 

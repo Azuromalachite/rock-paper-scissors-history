@@ -18,14 +18,16 @@ communities interpret it, and how children use it to organise play.
 | index finger | human (*manusia/orang*) | ant |
 | little finger | ant (*semut*) | elephant |
 
-The heritage organisation Traditional Games Returns documents these rules and
-distinguishes the game from *batu–gunting–kertas*, also called *suit Jepang*
-("Japanese suit"). The name alone does not establish when or how the Japanese
-version arrived.
+A heritage source recorded as "Traditional Games Returns" documents these
+rules and distinguishes the game from *batu–gunting–kertas*, also called *suit
+Jepang* ("Japanese suit"). That source could not be re-located (r1/R1-16), so
+the distinction rests on it until a locatable source replaces it. The name alone
+does not establish when or how the Japanese version arrived.
 
 Research article: Dewi Oktaviani and Dewi Kinasih, "Suten Games: Exploration of
 Empirical and Theoretical Probability for Junior High School Mathematics
-Learning", *Ethnomathematics Journal*, doi:10.21831/ej.v4i1.59575. Qualitative
+Learning", *Ethnomathematics Journal* 4(1): 19–35 (2023),
+doi:10.21831/ej.v4i1.59575. Qualitative
 and ethnographic; documents elephant–ant–human as a fair-determination
 procedure and examines its probability structure. It studies a living practice,
 not its origin.
@@ -38,11 +40,14 @@ southern Thai ones.
 ## Hawaiʻi: a direct cultural-history example
 
 Dennis M. Ogawa, *Jan Ken Po: The World of Hawaii's Japanese Americans*
-(University of Hawaiʻi Press; paperback listed 1982). The publisher presents the
-game as brought from Japan and absorbed into wider local culture, juxtaposing
-the Japanese chant with its localised form ("Junk An'a Po, I Canna Show").
+(1973; 2nd ed., University Press of Hawaii, 1978; a 1982 publisher listing is
+not the first edition). The publisher's description presents the game as
+brought from Japan and absorbed into wider local culture, juxtaposing the
+Japanese chant with its localised form ("Junk An'a Po, I Canna Show"). That
+comes from the description, not the book's text, so it is not dated by the
+book.
 
-Relevance to วันตูส้ม: a chant can change pronunciation and acquire a local
+Relevance to วันตูส้ม (also written วันตูโส้ม): a chant can change pronunciation and acquire a local
 identity while the game keeps circulating. This does not, by analogy, prove the
 proposed English/Malay etymology of วันตูส้ม, and Hawaiian janken is not
 evidence that ancient Polynesian societies played rock–paper–scissors.

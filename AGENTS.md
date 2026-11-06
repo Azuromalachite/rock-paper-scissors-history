@@ -71,16 +71,19 @@ Each cites what taught it. "Open:" marks one the repository violates today.
 2. **Verification says who and how.** `access` records the deepest level
    anyone reached (`primary_inspected` > `indexed_text` > `catalogue_record` >
    `secondary_report` > `user_screenshot` > `not_located`). The notes were
-   compiled by one AI-assisted search pass and have not been independently
-   re-checked. *Open: OF-2.*
-3. **A check must be able to fail.** Every rule in `check_evidence.py` has a
+   compiled by one AI-assisted search pass. *Open: OF-2.*
+3. **A source read once is not yet evidence.** `supported` needs a source that
+   a second person found again from its recorded locator (`relocated: true`).
+   Five sources the first pass read could not be found by review r1. *r1/R1-12,
+   enforced by `check_evidence.py`.*
+4. **A check must be able to fail.** Every rule in `check_evidence.py` has a
    case in `tests/` that plants the defect and asserts exit 1, plus one healthy
    copy that must pass. A rule with no failing case is not known to work.
-4. **Anchors bind prose to claims.** Each claim names a phrase on its page. If
+5. **Anchors bind prose to claims.** Each claim names a phrase on its page. If
    the prose is edited away, the check fails, and the editor must decide
    whether the claim moved, changed or died. Matching ignores whitespace and
    case and nothing else.
-5. **Thai, Malay and other non-English text stays in its own script**, with a
+6. **Thai, Malay and other non-English text stays in its own script**, with a
    translation beside it. A transliteration is never the only record of a
    word.
 

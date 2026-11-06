@@ -8,29 +8,30 @@ finding. Review-round findings are referenced as `r<N>/R<N>-<n>`.
 
 ## Open
 
-### Review round 1: R1-1 … R1-17, all open
+### Review round 1: fixes made, awaiting round 2
 
 **Location:** [`reviews/review-r1.md`](../reviews/review-r1.md), against
 `7292a2b`
 
 17 findings: 4 high, 8 medium, 5 low. Each has its correction and validation
-in the review, which is not repeated here. These block reuse of the short
-answers:
+in the review. All 17 have been addressed by the author. None counts as fixed
+until round 2 audits it: the fixer is not the one who confirms the fix.
 
-- **r1/R1-1:** the "pre-1939" bound. The earliest dated Thai record actually
-  cited is 1989.
-- **r1/R1-2:** the Hat Yai chant วัน ทู ส้ม rests on one 2008 comment that
-  could not be re-located.
-- **r1/R1-3:** the 1804–1843 estimate is Kako Satoshi (2008), relayed by
-  Yokohama Central Library in the NDL database. It is not an NDL guide, and
-  it does not make the game "securely identifiable".
-- **r1/R1-4:** the Singapore bird–water–stone record has no source.
-- **r1/R1-12:** none of the three Thai documentary anchors could be located as
-  cited.
+Five could only be addressed in the wording, because the missing source has
+still not been found. The prose now says so and the claims were downgraded.
+Each stays open until its source is re-located:
 
-The review also located sources that close parts of OF-1 and OF-3 (Culin pp.
-44–45, verified independently on 2026-11-06). Its "Source locators found"
-table is the input for filling `evidence/sources.yml`.
+| ID | what is still missing |
+| --- | --- |
+| r1/R1-2 | the 2008 Dek-D thread with the Hat Yai chant วัน ทู ส้ม |
+| r1/R1-5 | the DBP 2018 enquiry; the Malaysian artist and outlet |
+| r1/R1-6 | Kamaruddin Abdullah, "The Games We Played" (2013) |
+| r1/R1-12 | the Thai Junior Encyclopedia vol. 13 text and catalogue record; the Thailand Cultural Encyclopedia entry; the 2008 Dek-D article |
+| r1/R1-16 | "Traditional Games Returns" |
+
+New guard from round 1: `check_evidence.py` now refuses `supported` unless a
+source has `relocated: true`, meaning a second person found it again. A claim
+can no longer rest on a source read once and never found again.
 
 ### OF-1: sources cannot be re-found
 
@@ -58,20 +59,6 @@ Every `access` level was reached by a single AI-assisted search pass, before
 **Correction:** review rounds (`docs/review-process.md`). Each source a
 reviewer re-checks gets its `by` / `when` updated in the fixing commit.
 
-### OF-3: the prose calls Culin 1895 "firm" but it has not been read
-
-**Severity:** medium · **Location:** `notes/01-global-chronology.md`, 1895 row;
-`claim.japan.culin_1895`
-
-The chronology calls Culin (1895) "a firm documentary anchor", but the notes
-only saw his description as reproduced in Japanese scholarship
-(`access: secondary_report`). The registry holds it at `partly_supported`.
-The prose is stronger than its registry entry. Found while building the
-registry.
-
-**Correction:** read the 1895 book (public domain, digitised), record the page,
-then either keep "firm" with the locator, or soften the prose.
-
 ### OF-4: the Phuket variant rests on evidence outside the repository
 
 **Severity:** low · **Location:** `notes/03-southern-thailand.md`,
@@ -84,3 +71,13 @@ published, to protect the commenters. So no reader can check them.
 **Correction:** the Phuket dictionary entry (`claim.phuket.dictionary_entry`)
 or dated oral histories would give a checkable source. Until then the claim
 stays `partly_supported`.
+
+---
+
+## Closed
+
+### OF-3: the prose called Culin 1895 "firm" but it had not been read
+
+Closed 2026-11-06. Review r1 read Culin pp. 44–45 (Internet Archive), and the
+author confirmed the index entry. "Firm" now carries the locator, and the claim
+is `supported`.

@@ -1,8 +1,8 @@
 # 3. Why bird–stone–water (and other variants) in the South?
 
 The best-supported explanation is participation in a **shared peninsular game
-tradition**, with transmission between southern Thailand and the
-Malaysian/Singaporean region. The precise route and direction are unknown.
+tradition**, with transmission between southern Thailand and Malaysia. The
+precise route and direction are unknown.
 
 ## The variation is real, and more complicated than "the South plays one version"
 
@@ -18,19 +18,32 @@ Dated comments from 26–29 June 2008 (Dek-D):
 
 These are informal local testimonies, not a representative survey, but their
 dates and place names make them useful evidence that the variation was
-recognised by 2008.
+recognised by 2008. **Caveat:** the thread has not been re-located (r1/R1-2).
+The Hat Yai chant in particular rests on a single comment with no URL.
 
-## The Malaysian parallel is independently documented
+## The Malaysian parallel
 
-- Malaysia's Dewan Bahasa dan Pustaka preserves a 7 September 2018 enquiry
-  about the spelling of *ohsom / osom / wan tu som*, described by the enquirer
-  as a children's game like rock–paper–scissors using stone, water and bird.
-  DBP replied that it had not yet recorded a spelling. This establishes
-  contemporary usage, not etymology.
-- A Malaysian artist's statement recalls childhood *OSOM* with *burung, batu,
-  air* (bird, stone, water). Malaysian reporting documents this alongside other
-  local versions.
-- The same cycle is recorded in Singaporean schoolyard folklore.
+Documented, and checked against the source:
+
+- The ASEAN Committee on Culture and Information's 2009 *Compilation of
+  Traditional ASEAN Children's Songs, Dances, Games and Story-Telling*,
+  Malaysia section, pp. 86–87, gives *One Two Som* / *One Two Juz* with bird,
+  water and stone, and all three rules. See
+  [04-malay-peninsula.md](04-malay-peninsula.md).
+
+Cited, but not re-located on 2026-11-06 (r1/R1-5):
+
+- A 7 September 2018 enquiry to Malaysia's Dewan Bahasa dan Pustaka about the
+  spelling of *ohsom / osom / wan tu som*, described by the enquirer as a
+  children's game like rock–paper–scissors using stone, water and bird. DBP
+  replied that it had not yet recorded a spelling. If confirmed, this
+  establishes contemporary usage, not etymology.
+- A Malaysian artist's statement recalling childhood *OSOM* with *burung, batu,
+  air* (bird, stone, water), and Malaysian reporting of other local versions.
+  Neither the artist nor the outlet was recorded.
+
+No Singapore source for bird–stone–water was found. The one Singapore source in
+these notes describes a different, palm-up/palm-down procedure (r1/R1-4).
 
 | choice | defeats | explanation |
 | --- | --- | --- |
@@ -38,9 +51,12 @@ recognised by 2008.
 | water | stone | the stone sinks |
 | stone | bird | the stone strikes the bird |
 
-**Inference:** the Hat Yai–Malaysia match in *both* chant and symbols makes
-transmission or shared inheritance persuasive. It is a stronger explanation
-than southern children independently choosing birds because birds were around.
+**Inference:** the symbol match between southern Thai bird–stone–water and the
+documented Malaysian *One Two Som* makes transmission or shared inheritance
+persuasive. It is a stronger explanation than southern children independently
+choosing birds because birds were around. A matching chant (วัน ทู ส้ม in Hat
+Yai) would strengthen it further, but that rests on one comment that has not
+been re-located.
 
 The evidence does not yet distinguish between:
 
@@ -75,7 +91,9 @@ they may have learned a different version from the outset.
 
 ## The Phuket glass variant (วันตูโส้ม)
 
-A Facebook post (seen as screenshots, not reproduced here) describes:
+A Facebook post describes the variant below. It was seen only as screenshots,
+which are held privately to protect the commenters, so a reader cannot check it
+(r1/R1-11):
 
 | symbol | gesture | defeats | explanation |
 | --- | --- | --- | --- |
@@ -114,11 +132,15 @@ so it is unverified whether the post reproduces it accurately.
 | the expression originated during British colonial rule | not established |
 | the game split into exactly three historical "branches" | a proposed classification, not a demonstrated history |
 | water represents coastal communities' way of life | an interpretation; symbols alone cannot establish the reason |
-| โอน้อยออก developed from Lai Lai Li Tam Plong | needs separate linguistic and historical evidence |
+| โอน้อยออก developed from Lai Lai Li Tam Plong | needs separate linguistic and historical evidence. A Malaysian palm-up/palm-down rhyme, *Lai Lai Li Tham Plom*, is documented in the 2009 ASEAN compilation (Malaysia section, p. 86). That dates the name and the practice in Malaysia, not a derivation. |
 
 Background that makes a multilingual route plausible (but does not prove it):
 the Thailand Cultural Encyclopedia describes Hokkien-speaking migrants bringing
 Malay and English vocabulary into Phuket, often after living in Malaya.
+
+Spelling: the post writes วันตูโส้ม; other reports write วันตูส้ม or วัน ทู ส้ม.
+They are kept as written, since it is not known whether they are variants of
+one form.
 
 One useful implication: **the same chant accompanies different symbol sets**
 (วันตูส้ม-type names with both bird–stone–water and glass–stone–water). Chant,

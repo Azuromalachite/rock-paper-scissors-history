@@ -17,6 +17,7 @@ be re-findable by someone else, record:
 | `accessed` | the date you read it (YYYY-MM-DD) |
 | `locator` | page, section, paragraph or comment date: where the passage is |
 | `access` | how far you got: `primary_inspected`, `indexed_text`, `catalogue_record`, `secondary_report`, `user_screenshot`, `not_located` |
+| `relocated` | `true` only when a second person found the source again from what is recorded. A claim can be `supported` only on such a source. |
 
 Cite the original page and add the archive snapshot next to it. Don't cite the
 snapshot alone.
