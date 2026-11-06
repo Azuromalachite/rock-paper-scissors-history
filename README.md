@@ -49,3 +49,13 @@ place X in year Y" is not the same as "the game arrived in place X in year Y".
 - Some evidence comes from screenshots of a Facebook post and its comments
   (Phuket/Krabi variants). Those are not reproduced here.
 - Corrections, dated sources and oral histories are welcome via issues.
+
+## License
+
+The text of these notes is licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You may
+share and adapt it for any purpose, including commercially, as long as you give
+credit: Thanakrit (Austin) Wongsatit,
+<https://github.com/Azuromalachite/rock-paper-scissors-history>.
+
+The license covers these notes only, not the works they cite.
